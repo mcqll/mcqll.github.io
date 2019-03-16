@@ -1,5 +1,12 @@
 MCQLL site based on al-folio theme
 
+## workflow
+- edit the page locally generate with `bundle exec jekyll serve`.
+- push to `source` branch.
+- `./bin/deploy --user` to deploy site to the `master` branch when ready to release 
+
+(`master` is where the generated site will live, `source` is for the source code. this is because GitHub pages doesn't allow reference to external plugins such as `github-scholar` it seems, so it won't work to just edit the site in the `master` branch and have GitHub do the generation for you)  
+
 # al-folio theme:
 
 [![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
