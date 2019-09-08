@@ -1,8 +1,19 @@
-MCQLL site based on al-folio theme
+# MCQLL website
+(based on [al-folio](https://github.com/alshedivat/al-folio) theme).
 
-## workflow
-- edit the page locally generate with `bundle exec jekyll serve`.
-- push to `source` branch.
+## Getting started
+
+Download this repo to your local machine.
+Have jekyll and bundler installed.
+
+  `gem install bundler jekyll`
+
+## Editing workflow
+
+- edit a page locally (for example, open one of the files in the `_pages/` directory, edit the markdown, and save)
+- generate the site locally with `bundle exec jekyll serve` (and preview your changes by visiting the URL that generates).
+- once you are satisfied with your edits, push to `source` branch.
+  - `git push`
 - `./bin/deploy --user` to deploy site to the `master` branch when ready to release 
 
 (`master` is where the generated site will live, `source` is for the source code. this is because GitHub pages doesn't allow reference to external plugins such as `github-scholar` it seems, so it won't work to just edit the site in the `master` branch and have GitHub do the generation for you)  
@@ -109,9 +120,4 @@ Just use the liquid tags `{% highlight python %}` and `{% endhighlight %}` to de
 
 ## Contributing
 
-Feel free to contribute new features and theme improvements by sending a pull request.
-Style improvements and bug fixes are especially welcome.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+Feel free to contribute new features and improvements by sending a pull request.
