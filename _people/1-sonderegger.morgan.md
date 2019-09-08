@@ -1,18 +1,15 @@
 ---
-layout: profile
-title: Morgan Sonderegger
+layout: person
+name: Morgan Sonderegger
 position: faculty
 description: Principal Investigator
-img: /assets/img/Morgan.jpg
+img: Morgan.cropped.jpg # to fit better
 
 profile:
-  align: right
-  image: Morgan.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+  img: Morgan.jpg
+  cv: /assets/pdfs/cv_morgan.pdf
+  website:
+  office: # address
 ---
 
 I am an assistant professor of linguistics at [McGill University](https://www.mcgill.ca/linguistics/).

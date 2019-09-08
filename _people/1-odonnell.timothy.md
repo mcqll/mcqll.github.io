@@ -1,17 +1,15 @@
 ---
-layout: profile
-title: Tim O'Donnell
+layout: person
+name: Timothy O'Donnell
 position: faculty
 description: Principal Investigator
-img: /assets/img/tim.jpg
+img: tim.jpg
 
 profile:
-  align: right
-  image: tim.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  img: # optional, another image, if different from the one on the people page
+  cv: /assets/pdfs/todonnell-long.pdf
+  website: http://people.linguistics.mcgill.ca/~timothy.odonnell/
+  office: # address
 
 ---
 

@@ -12,9 +12,18 @@
 }
 
 .address {
-    font-family: monospace;
-
+    font-family:serif;
+    color: black;
     p { margin: 0; }
+}
+
+.link {
+    font-weight: bold;
+    p { margin: 0; }
+
+    a {
+        font-weight: bold;
+    }
 }
 
 .news {

@@ -8,7 +8,7 @@
 
     .thumbnail {
         overflow: hidden;
-        height: 200px;
+        height: 220px;
         width: 100%;
 
         img {
@@ -26,7 +26,7 @@
 
         a {
             float: left;
-            height: 250px;
+            height: 220px; // this will get the image to centre a bit higher. more likely good for portraits
             position: relative;
             width: 100%;
 

@@ -1,17 +1,15 @@
 ---
-layout: profile
-title: Jackie Chi Kit Cheung
+layout: person
+name: Jackie Chi Kit Cheung
 position: faculty
 description: Associate
-img: /assets/img/jackiecheung.jpg
+img: jackiecheung.jpg
 
 profile:
-  align: right
-  image: mcqll-logo.png
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  img: # optional, another image, if different from the one on the people page
+  cv: 
+  website: https://www.cs.mcgill.ca/~jcheung/index.html
+  office: # address
 
 ---
 
@@ -23,7 +21,7 @@ In our lab, we investigate statistical machine learning techniques for analyzing
 
 Research interests:
 
-Natural language processing
-Computational semantics
-Natural language generation
-Automatic summarization
+- Natural language processing
+- Computational semantics
+- Natural language generation
+- Automatic summarization

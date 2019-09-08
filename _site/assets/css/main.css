@@ -395,22 +395,26 @@ footer a:hover { color: #f95020; }
 .project .thumbnail a:hover span { display: block; }
 
 .person { box-sizing: border-box; float: left; height: 250px; padding: 10px; vertical-align: middle; width: 33.33%; }
-.person .thumbnail { overflow: hidden; height: 200px; width: 100%; }
+.person .thumbnail { overflow: hidden; height: 220px; width: 100%; }
 .person .thumbnail img { margin-left: 50%; transform: translateX(-50%); height: auto; width: 215px; }
-.person .thumbnail a { float: left; height: 250px; position: relative; width: 100%; }
+.person .thumbnail a { float: left; height: 220px; position: relative; width: 100%; }
 .person .thumbnail a span { display: none; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.4); color: #e8e8e8; padding: 40px; text-align: center; }
 .person .thumbnail a span h1 { font-size: 1.5rem; margin: 0; }
 .person .thumbnail a span p { color: #e8e8e8; }
 .person .thumbnail a:hover span { display: block; }
 
-div #gridid .row { background-color: #e8e8e8; width: 100%; height: 350px; position: inherit; }
+div #gridid .row { background-color: rgba(0, 0, 0, 0.0625); width: 100%; height: 320px; position: inherit; }
 
 .profile img { box-shadow: 0 0 5px #828282; width: 100%; }
 
 .logo img { width: 100%; }
 
-.address { font-family: monospace; }
+.address { font-family: serif; color: black; }
 .address p { margin: 0; }
+
+.link { font-weight: bold; }
+.link p { margin: 0; }
+.link a { font-weight: bold; }
 
 .news { border-top: 1px solid #e8e8e8; margin-top: 30px; padding-top: 20px; }
 .news h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
