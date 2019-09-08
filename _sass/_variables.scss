@@ -55,6 +55,8 @@ $pink:              #f92080 !default;
 $light-pink:        #ffdddd !default;
 $yellow:            #efcc00 !default;
 
+$sand:              #fff7f0 !default;
+
 $white:             #fff !default;
 $dark-gray:         #333 !default;
 $mid-gray:          #666 !default;
@@ -143,10 +145,10 @@ $hljs-chunk: $light-gray;
 $nav-height: 56px;
 
 // Footer
-$footer-border-top: thin solid $grey-color-dark;
+$footer-border-top: thin solid $grey-color-light;
 $footer-padding: $space-1;
-$footer-color: $light-gray;
-$footer-bg-color: $grey-color-dark;
+$footer-color: $grey-color-dark;
+$footer-bg-color: $sand;
 $footer-font-weight: 300;
 $footer-font-size: .75rem;
 

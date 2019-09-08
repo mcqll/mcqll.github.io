@@ -10,7 +10,7 @@ layout: default
 
   <article class="post-content {{page.title}} clearfix">
     {% if page.profile %}
-      <div class="profile col one right">
+      <div class="profile col one left card">
         {% if page.profile.img %}
           <img class="one" src="{{ page.profile.img | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
         {% elsif page.img %}
