@@ -100,21 +100,11 @@ Photo formatting is made simple using rows of a 3-column system.
 Make photos 1/3, 2/3, or full width.
 Easily create beautiful grids within your blog posts and projects pages:
 
-<p align="center">
-  <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
-    <img src="assets/img/photos-screenshot.png" width="75%">
-  </a>
-</p>
 
 #### Code Highlighting
-This theme implements Jekyll's built in code syntax highlighting with Pygments.
+This theme implements Jekyll's built in code syntax highlighting with Pygments (EDIT: now Rouge instead of Pygments).
 Just use the liquid tags `{% highlight python %}` and `{% endhighlight %}` to delineate your code:
 
-<p align="center">
-  <a href="https://alshedivat.github.io/al-folio/blog/2015/code/">
-    <img src="assets/img/code-screenshot.png" width="75%">
-  </a>
-</p>
 
 ## Contributing
 
