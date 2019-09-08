@@ -1,9 +1,9 @@
 ---
 layout: profile
-title: Faculty Two
+title: Grad One
 position: grad
 description:
-img: /assets/img/11.jpg
+img: /assets/img/4.jpg
 
 profile:
   align: right
@@ -15,6 +15,6 @@ profile:
 
 ---
 
-I am an assistant professor of linguistics at [McGill University](https://www.mcgill.ca/linguistics/).
+I am an grad student in linguistics at [McGill University](https://www.mcgill.ca/linguistics/).
 
-In my research, I develop mathematical models of language generalization, learning, and processing. My research draws on experimental methods from psychology, formal modeling techniques from natural language processing, theoretical tools from linguistics, and problems from all three.
+BLAH
