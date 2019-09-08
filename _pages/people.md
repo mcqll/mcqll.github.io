@@ -1,6 +1,6 @@
 ---
 layout: page
-title: people
+title: PEOPLE
 permalink: /people/
 description: current and past projects, and other resources
 ---

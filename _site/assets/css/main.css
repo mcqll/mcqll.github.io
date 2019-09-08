@@ -332,7 +332,8 @@ body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: 
 
 .site-header { border-bottom: 1px solid #e8e8e8; background-color: #fff; opacity: 0.95; position: fixed; left: 0px; top: 0px; width: 100%; z-index: 50; }
 
-.site-title { font-size: 20px; line-height: 56px; letter-spacing: -1px; margin-bottom: 0; }
+.site-title { font-size: 20px; overflow: hidden; line-height: 56px; letter-spacing: -2px; margin-bottom: 0; }
+.site-title a { font-size: 20px; }
 
 .site-nav { float: right; line-height: 56px; }
 .site-nav .nav-trigger { display: none; }
@@ -373,7 +374,7 @@ footer a:hover { color: #f95020; }
 .post-list { margin: 0; padding: 0; list-style: none; }
 .post-list > li { border-bottom: 1px solid #ccc; padding-bottom: 2rem; padding-top: 2rem; }
 
-.post-title { font-size: 42px; letter-spacing: -1px; line-height: 1; margin-bottom: 10px; margin-top: 0; }
+.post-title { font-size: 42px; font-weight: bold; letter-spacing: -2px; line-height: 1; margin-bottom: 10px; margin-top: 0; }
 
 .post-content h2 { font-size: 42px; }
 .post-content h3 { font-size: 30px; }
@@ -393,6 +394,8 @@ footer a:hover { color: #f95020; }
 .project .thumbnail a:hover span { display: block; }
 
 .profile img { box-shadow: 0 0 5px #828282; width: 100%; }
+
+.logo img { width: 100%; }
 
 .address { font-family: monospace; }
 .address p { margin: 0; }

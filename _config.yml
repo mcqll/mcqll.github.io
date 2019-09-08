@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 title: MCQLL
 name: MCQLL
-email:
+email: MCQLL-WEB@lists.mcgill.ca
 description: > # this means to ignore newlines until "url:"
   Montreal Computational & Quantitative Linguistics Lab
 footer_text: >
@@ -27,8 +27,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: MCQLL blog
+blog_description: Montreal Computational & Quantitative Linguistics Lab
 
 # Pagination
 paginate: 4
@@ -83,12 +83,12 @@ plugins:
     - jekyll-email-protect
     - jekyll-paginate
     - jekyll/scholar
-    - jemoji
+    # - jemoji
 
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  last_name: 
 
   style: apa
   locale: en
@@ -97,7 +97,7 @@ scholar:
   order: descending
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: citations.bib
   bibliography_template: bib
 
   replace_strings: true

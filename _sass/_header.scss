@@ -11,14 +11,19 @@
 
 .site-title {
     font-size: 20px;
+    overflow: hidden;
     line-height: $nav-height;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
     margin-bottom: 0;
+
+    a {
+        font-size: 20px;}
+
 }
 .site-nav {
     float: right;
     line-height: $nav-height;
-    
+
     .nav-trigger {
         display: none;
     }
@@ -26,7 +31,7 @@
     .menu-icon {
         display: none;
     }
-    
+
     .page-link{
         line-height: $line-height;
         // Gaps between nav items, but not on the first one
