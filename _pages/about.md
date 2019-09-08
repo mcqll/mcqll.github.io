@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/
-title: ABOUT MCQLL
+title: ABOUT
 description: Montreal Computational & Quantitative Linguistics Lab
 
 news: true

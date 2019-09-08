@@ -13,4 +13,4 @@ profile:
 
 ---
 
-I am an undergraduate in the McGill Linguistics department, interested in computational approaches to modeling natural language semantics, especially compositional representations.
+I am interested in computational approaches to modeling natural language semantics, especially compositional representations.

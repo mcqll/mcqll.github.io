@@ -333,7 +333,6 @@ body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: 
 .site-header { border-bottom: 1px solid #e8e8e8; background-color: #fff7f0; opacity: 0.95; position: fixed; left: 0px; top: 0px; width: 100%; z-index: 50; }
 
 .site-title { font-size: 20px; overflow: hidden; line-height: 56px; letter-spacing: -2px; margin-bottom: 0; }
-.site-title .logodiv { background-image: url("/assets/img/mcqll-logo-transparent.png"); }
 .site-title a { font-size: 20px; }
 
 .site-nav { float: right; line-height: 56px; }

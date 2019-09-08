@@ -1,6 +1,6 @@
 ---
 layout: person
-name: Arlie Coles
+name: Seara Chen
 position: alum
 description:
 img: searachen.jpg

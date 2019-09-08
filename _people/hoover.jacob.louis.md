@@ -6,10 +6,10 @@ description:
 img: jaclouhoo.jpg
 
 profile:
-  img: # optional, another image, if different from the one on the people page
+  img: jaclouhoo2.jpg # optional, another image, if different from the one on the people page
   office: # address
   cv:
-  website: http://postylem.gihub.io/about
+  website: http://postylem.github.io/about/
 
 ---
 
