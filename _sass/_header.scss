@@ -17,10 +17,14 @@
     margin-bottom: 0;
 
     .logodiv {
-        
+
     }
     a {
         font-size: 20px;}
+    img.logoimg {
+        overflow: hidden;
+        vertical-align: middle
+    }
 
 }
 .site-nav {
