@@ -7,10 +7,19 @@
 }
 
 .card {
-    background-color: $sand;
+    background-color: $mcqll-theme-color;
     box-shadow: 0 0 2px $grey-color-light;
     position: relative;
         right: 3%;
+
+    .link {
+        font-weight: bold;
+        p { margin: 0; }
+
+        // a {
+        //     font-weight: bold;
+        // }
+    }
 }
 
 .logo {
@@ -25,14 +34,7 @@
     p { margin: 0; }
 }
 
-.link {
-    font-weight: bold;
-    p { margin: 0; }
 
-    a {
-        font-weight: bold;
-    }
-}
 
 .news {
     border-top: 1px solid $grey-color-light;

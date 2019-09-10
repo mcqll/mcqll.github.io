@@ -1,50 +1,32 @@
 ---
-layout: default
+layout: page
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.name }}</h1>
-    <h5 class="post-description">{{ page.description }}</h5>
-  </header>
-
-  <article class="post-content {{page.title}} clearfix">
-    {% if page.profile %}
-      <div class="profile col one left card">
-        {% if page.profile.img %}
-          <img class="one" src="{{ page.profile.img | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
-        {% elsif page.img %}
-          <img class="one" src="{{ page.img | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
-        {% endif %}
-        {% if page.profile.office %}
-          <div class="address">
-            {{ page.profile.office }}
-          </div>
-        {% endif %}
-        <ul>
-        {% if page.profile.cv %}
-          <div class="link">
-            <li><a href="{{ page.profile.cv }}" target="_blank">CV</a></li>
-          </div>
-        {% endif %}
-        {% if page.profile.website %}
-          <div class="link">
-            <li><a href="{{ page.profile.website }}" target="_blank">website</a></li>
-          </div>
-        {% endif %}
-        </ul>
+{% if page.profile %}
+  <div class="profile col one left card">
+    {% if page.profile.img %}
+      <img class="one" src="{{ page.profile.img | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+    {% elsif page.img %}
+      <img class="one" src="{{ page.img | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+    {% if page.profile.office %}
+      <div class="address">
+        {{ page.profile.office }}
       </div>
     {% endif %}
+    <ul>
+    {% if page.profile.cv %}
+      <div class="link">
+        <li><a href="{{ page.profile.cv }}" target="_blank">CV</a></li>
+      </div>
+    {% endif %}
+    {% if page.profile.website %}
+      <div class="link">
+        <li><a href="{{ page.profile.website }}" target="_blank">Personal site</a></li>
+      </div>
+    {% endif %}
+    </ul>
+  </div>
+{% endif %}
 
-    {{ content }}
-  </article>
-
-  {% if page.news %}
-    {% include news.html %}
-  {% endif %}
-
-  {% if page.social %}
-    {% include social.html %}
-  {% endif %}
-
-</div>
+{{ content }}

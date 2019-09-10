@@ -55,8 +55,6 @@ $pink:              #f92080 !default;
 $light-pink:        #ffdddd !default;
 $yellow:            #efcc00 !default;
 
-$sand:              #fff7f0 !default;
-
 $white:             #fff !default;
 $dark-gray:         #333 !default;
 $mid-gray:          #666 !default;
@@ -72,10 +70,12 @@ $darken-2:          rgba(#000,.125) !default;
 $darken-3:          rgba(#000,.25) !default;
 $darken-4:          rgba(#000,.5) !default;
 
-$theme-color:       $red-1;
+$theme-color:       darken($blue, 25%);
 $code-color:        $dark-gray;
 $text-color:        $mid-gray;
 $background-color:  white;
+$mcqll-theme-color: #fff7f0;
+
 
 // Links
 $link-color:        $theme-color;
@@ -148,7 +148,7 @@ $nav-height: 56px;
 $footer-border-top: thin solid $grey-color-light;
 $footer-padding: $space-1;
 $footer-color: $grey-color-dark;
-$footer-bg-color: $sand;
+$footer-bg-color: $mcqll-theme-color;
 $footer-font-weight: 300;
 $footer-font-size: .75rem;
 

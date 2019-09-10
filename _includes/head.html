@@ -4,7 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>{{ site.name }}
-    {% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>
+    {% if page.layout == "person"  %} | {{ page.name }}
+    {% elsif page.title and page.url != "/" %} | {{ page.title }}{% endif %}
+  </title>
   <meta name="description" content="{{ site.description }}">
 
   <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">

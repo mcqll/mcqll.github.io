@@ -23,29 +23,6 @@ orcid_id: # your ORCID ID
 contact_note:
 google_analytics: # UA-XXXXXXXXX out your google-analytics code
 
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-blog_name: MCQLL blog
-blog_description: Montreal Computational & Quantitative Linguistics Lab
-
-# Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
-
-# Comments
-disqus_shortname: # put your disqus shortname
-
-# Optional features
-show_social_icons:  false
-enable_anchorjs:    false
-enable_katex:       true
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -80,7 +57,7 @@ exclude: [vendor]
 # Plug-ins
 plugins:
     - jekyll-email-protect
-    - jekyll-paginate
+    # - jekyll-paginate
     - jekyll/scholar
 
 # Jekyll-Scholar

@@ -3,10 +3,10 @@ layout: person
 name: Morgan Sonderegger
 position: faculty
 description: Principal Investigator
-img: Morgan.cropped.jpg # to fit better
+img: morgansonderegger.cropped.jpg # to fit better
 
 profile:
-  img: Morgan.jpg
+  img: morgansonderegger.jpg
   cv: /assets/pdfs/cv_morgan.pdf
   website:
   office: # address
