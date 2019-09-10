@@ -1,12 +1,12 @@
 ---
 layout: person
 name: Dzmitry Bahdanau
-position: grad
+position: #grad
 description:
-img:
+img: dzmitrybahdanau.cropped.jpg
 
 profile:
-  img: # optional, another image, if different from the one on the people page
+  img: dzmitrybahdanau.jpg # optional, another image, if different from the one on the people page
   office: # address
   cv:
   website: http://rizar.github.io/about/

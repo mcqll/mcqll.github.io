@@ -3,7 +3,7 @@ layout: person
 name: Gemma Huang
 position: undergrad
 description:
-img:
+img: gemmahuang.jpg
 
 profile:
   img: # optional, another image, if different from the one on the people page
@@ -12,3 +12,5 @@ profile:
   office: # address
 
 ---
+
+I am a fourth-year undergraduate in the Honours Linguistics program with a Computer Science minor at McGill University. I am interested in Acoustic Phonetics, computational phonology and using quantitative methods for linguistic data analysis. My current project involves testing different probabilistic models of English phonotactics.
