@@ -12,6 +12,6 @@ profile:
   office: # address
 ---
 
-I am an assistant professor of linguistics at [McGill University](https://www.mcgill.ca/linguistics/).
+I am an associate professor of linguistics at [McGill University](https://www.mcgill.ca/linguistics/).
 
 I specialize in phonology, phonetics, computational linguistics, language variation and change, and quantitative methods.
