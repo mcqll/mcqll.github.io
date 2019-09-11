@@ -1,6 +1,6 @@
 ---
 layout: person
-name: Gemma Huang
+name: Jiayi (Gemma) Huang
 position: undergrad
 description:
 img: gemmahuang.jpg
