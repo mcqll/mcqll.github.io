@@ -14,4 +14,4 @@ One focus of research in the lab is on structured probabilistic models of phonol
 
 We also have a special interest in formal tools and techniques for understanding the acoustic and articulatory realization of phonetics and phonology. In order to carry out “big data” studies of phonetics and phonology, we build and apply tools for querying and analyzing large speech datasets. These tools use contemporary databases, machine learning, and speech recognition technology, in line with our more general interest in adapting powerful methods from computer science to analyze linguistic data.
 
-[Links to current and past projects can be found here.](Resources)
+[Links to current and past projects can be found here.](resources)

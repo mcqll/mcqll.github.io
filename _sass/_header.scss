@@ -45,14 +45,14 @@
         font-family: $heading-font-family;
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 10px;
+            margin-left: 1vw;
         }
     }
     // added for hamburger
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
-        right: $horizontal-spacing-unit / 2;
+        top: 14px;
+        right: $horizontal-spacing-unit;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;

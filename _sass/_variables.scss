@@ -74,8 +74,8 @@ $darken-4:          rgba(#000,.5) !default;
 $theme-color:       $dark-blue;
 $code-color:        $dark-gray;
 $text-color:        $dark-gray;
-$background-color:  white;
-$mcqll-theme-color: lighten(#ede5e1,5%);
+$background-color:  lighten(#EdefEf,5%);
+$mcqll-theme-color: lighten(#ede5e1,3%);
 
 
 // Links
@@ -92,9 +92,9 @@ $space-2: 1rem !default;
 $space-3: 2rem !default;
 $space-4: 4rem !default;
 
-$horizontal-spacing-unit:       50px;
+$horizontal-spacing-unit:       10px;
 $vertical-spacing-unit:         40px;
-$nav-height:                    56px;
+$nav-height:                    66px;
 
 // Buttons
 $button-font-size: inherit !default;
@@ -142,9 +142,6 @@ $hljs-addition: $light-green;
 $hljs-change: $dark-blue;
 $hljs-chunk: $light-gray;
 
-// Header
-$nav-height: 66px; // originally 56px
-
 // Footer
 $footer-border-top: thin solid $grey-color-light;
 $footer-padding: $space-1;
@@ -164,4 +161,4 @@ $caption-font-size: 12px;
 $caption-color: #aaa;
 
 /* add on-palm to be consistent with other jekyll theme media queries */
-$on-palm:  600px !default;
+$on-palm:  670px !default;
