@@ -1,6 +1,6 @@
 ---
 layout: person
-name: Timothy O'Donnell
+name: Timothy O’Donnell
 position: faculty
 description: Principal Investigator
 img: timodonnell.jpg

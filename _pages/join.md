@@ -1,6 +1,6 @@
 ---
 layout: page
-title: JOIN
+title: Join
 permalink: /join
 description: join the lab
 

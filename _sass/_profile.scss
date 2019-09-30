@@ -12,6 +12,11 @@
     position: relative;
         right: 3%;
 
+    @media screen and (max-width: $viewport-small) {
+        right: 0%;
+        margin-bottom: 3%;
+    }
+
     .link {
         font-weight: bold;
         p { margin: 0; }

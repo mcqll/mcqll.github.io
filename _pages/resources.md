@@ -1,6 +1,6 @@
 ---
 layout: page
-title: RESOURCES
+title: Resources
 permalink: /resources
 description: current and past projects, and other resources
 

@@ -1,6 +1,6 @@
 ---
 layout: grid
-title: PEOPLE
+title: People
 permalink: /people
 description: faculty, post-docs, and students in the lab, and collaborators
 ---

@@ -5,10 +5,10 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{% if page.layout == "person"  %}{{ page.name }}{% else %}{{ page.title }}{% endif %}</h1>
-    <h5 class="post-description">{{ page.description }}</h5>
+    <h4 class="post-description">{{ page.description }}</h4>
   </header>
 
-  <article class="post-content {{page.title}} clearfix" style="min-width:550px">
+  <article class="post-content {{page.title}} clearfix">
     {{ content }}
   </article>
 

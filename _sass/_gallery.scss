@@ -13,7 +13,7 @@ figcaption {
 .img_row {
     height: $img-height;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
     box-sizing:border-box;
 }
 .col {
@@ -25,6 +25,9 @@ figcaption {
 }
 .one {
     width:33.33%;
+    @media screen and (max-width: $viewport-small) {
+        width:100%;
+    }
 }
 .two {
     width: 66.66%;

@@ -23,7 +23,8 @@
         font-size: 20px;}
     img.logoimg {
         overflow: hidden;
-        vertical-align: middle
+        vertical-align: middle;
+        height: 0.9*($nav-height);
     }
 
 }
@@ -41,6 +42,7 @@
 
     .page-link{
         line-height: $line-height;
+        font-family: $heading-font-family;
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 10px;
