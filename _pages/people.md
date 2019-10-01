@@ -196,6 +196,7 @@ description: faculty, post-docs, and students in the lab, and collaborators
 ## External Collaborators
 
 - [Adam Albright](http://web.mit.edu/albright/www/)
+- [Dzmitry Bahdenau](https://mila.quebec/en/person/dzmitry-bahdanau/)
 - [Leon Bergen](http://profiles.ucsd.edu/leon.bergen)
 - [Matthew Carlson](http://cls.psu.edu/people/mtc173)
 - [Meghan Clayards](https://www.mcgill.ca/linguistics/people/faculty/clayards)
@@ -212,6 +213,7 @@ description: faculty, post-docs, and students in the lab, and collaborators
 - [Jason Riggle](http://hum.uchicago.edu/~jriggle/)
 - [Derek Ruths](http://www.derekruths.com)
 - [Kenny Smith](https://www.ed.ac.uk/profile/kenny-smith)
+- [Alessandro Sordoni](https://www.microsoft.com/en-us/research/people/alsordon/)
 - [Jane Stuart-Smith](https://www.gla.ac.uk/schools/critical/staff/janestuart-smith/)
 - [Michael Wagner](http://www.mcgill.ca/linguistics/people/faculty/wagner)
 - Tae-Jin Yoon
