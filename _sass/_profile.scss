@@ -10,11 +10,11 @@
     background-color: $mcqll-theme-color;
     box-shadow: 0 0 2px $grey-color-light;
     position: relative;
-        right: 3%;
+    margin-right: 3vw;
+    margin-bottom: 1vw;
 
     @media screen and (max-width: $viewport-small) {
-        right: 0%;
-        margin-bottom: 3%;
+
     }
 
     .link {

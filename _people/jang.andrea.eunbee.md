@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Andrea Eunbee Jang
-position: undergrad
+position: grad
 description:
 img: andreaeunbeejang.jpg
 
