@@ -1,12 +1,12 @@
 ---
 layout: person
-name: Jonathan Pallucci
+name: Jonathan Palucci
 position: grad
 description:
-img: jonnypallucci.png
+img: jonnypalucci.png
 
 profile:
-  img: jonnypallucci.jpg # optional, another image, if different from the one on the people page
+  img: jonnypalucci.jpg # optional, another image, if different from the one on the people page
   office: # address
   cv:
   website:
