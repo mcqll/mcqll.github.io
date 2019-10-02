@@ -4,16 +4,14 @@
 ## Getting started
 
 Download this repo to your local machine.
-Have jekyll and bundler installed.
-
-  `gem install bundler jekyll`
+Have [jekyll](https://jekyllrb.com/) and [bundler](https://bundler.io/) installed.
 
 ## Editing workflow ! IMPORTANT !
 
 - edit a page locally (for example, open one of the files in the `_pages/` directory, edit the markdown, and save)
 - generate the site locally with `bundle exec jekyll serve` (and preview your changes by visiting the URL that generates).
-- once you are satisfied with your edits, push to `source` branch.
-- then deploy using `./bin/deploy --user`. This deploys the site to the `master` branch
+- once you are satisfied with your edits, push to `source` branch.  (however, **this will not be published yet**)
+- then you must deploy using `./bin/deploy --user`. This deploys the site to the `master` branch
     - What's going on here? It's a workaround. `master` is where the generated site will live, `source` is for the source code.  When you just run `git push` you will update the source branch. But we want to just put a generated version of the site at the master branch, rather than have GitHub do this automatically. This is because GitHub pages doesn't allow reference to external plugins such as `github-scholar` it seems, so it won't work to just edit the site in the `master` branch and have GitHub do the generation for you.
 
 # al-folio theme:
