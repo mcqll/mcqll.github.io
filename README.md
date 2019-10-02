@@ -8,7 +8,7 @@ Have [jekyll](https://jekyllrb.com/) and [bundler](https://bundler.io/) installe
 
 ## Editing workflow ! IMPORTANT !
 
-- edit a page locally (for example, open one of the files in the `_pages/` directory, edit the markdown, and save)
+- edit a page locally (for example, edit one of the files in the `_pages/` directory, or add a new `lastname.firstname.md` file to `/_people` to add a new lab member)
 - generate the site locally with `bundle exec jekyll serve` (and preview your changes by visiting the URL that generates).
 - once you are satisfied with your edits, commit them and then `git push` (note, **this will not be published yet**)
 - then you must deploy using `./bin/deploy --user`. This deploys the site to the `master` branch
