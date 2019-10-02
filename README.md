@@ -1,5 +1,5 @@
 # MCQLL website
-(based on [al-folio](https://github.com/alshedivat/al-folio) theme. See readme there for info (though note, I've switched from Pygments to [Rouge](https://github.com/rouge-ruby/rouge) for code highlighting).
+Based on [al-folio](https://github.com/alshedivat/al-folio) theme. See readme there for info (though note, I've switched from Pygments to [Rouge](https://github.com/rouge-ruby/rouge) for code highlighting).
 
 ## Getting started
 
