@@ -94,7 +94,9 @@ $space-4: 4rem !default;
 
 $horizontal-spacing-unit:       10px;
 $vertical-spacing-unit:         40px;
+
 $nav-height:                    76px;
+$smaller-nav-height:             0.6*$nav-height;
 
 // Buttons
 $button-font-size: inherit !default;
@@ -161,4 +163,4 @@ $caption-font-size: 12px;
 $caption-color: #aaa;
 
 /* add on-palm to be consistent with other jekyll theme media queries */
-$on-palm:  720px !default;
+$on-palm:  690px !default;

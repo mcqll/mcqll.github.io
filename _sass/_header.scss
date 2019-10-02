@@ -13,6 +13,7 @@
     font-size: 20px;
     overflow: hidden;
     line-height: $nav-height;
+    @include media-query($viewport-small) {line-height: $smaller-nav-height;}
     letter-spacing: -2px;
     margin-bottom: 0;
 
@@ -24,13 +25,15 @@
     img.logoimg {
         overflow: hidden;
         vertical-align: middle;
-        height: ($nav-height);
+        height: $nav-height;
+        @include media-query($viewport-small) {height: $smaller-nav-height;}
     }
 
 }
 .site-nav {
     float: right;
     line-height: $nav-height;
+    @include media-query($viewport-small) {line-height: $smaller-nav-height;}
 
     .nav-trigger {
         display: none;
@@ -43,6 +46,7 @@
     .page-link{
         line-height: $line-height;
         font-family: $heading-font-family;
+        // @include media-query($viewport-medium) {font-size: ;}
         font-weight: 900;
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -52,7 +56,8 @@
     // added for hamburger
     @include media-query($on-palm) {
         position: absolute;
-        top: 14px;
+        top: ($nav-height - 36px)/2; // place it halfway down the navbar
+        @include media-query($viewport-small) {top: ($smaller-nav-height - 36px)/2;}
         right: $horizontal-spacing-unit;
         background-color: $background-color;
         border: 1px solid $grey-color-light;

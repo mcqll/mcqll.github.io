@@ -23,7 +23,7 @@
   }
 
   .site-header a {
-    font-size: $h3;
+    font-size: 0.8*$h3;
   }
 
   .site-header .site-title {
@@ -52,6 +52,9 @@
 @media screen and (min-width: $viewport-medium) {
   html {
     font-size: 18px;
+  }
+  .site-header a {
+    font-size: $h3;
   }
 }
 
