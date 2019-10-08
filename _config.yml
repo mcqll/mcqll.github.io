@@ -71,7 +71,7 @@ scholar:
 
   source: /_bibliography
   bibliography: citations.bib
-  bibliography_template: bib
+  bibliography_template: bib # references file _layouts/bib.*
 
   replace_strings: true
   join_strings: true
