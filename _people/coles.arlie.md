@@ -8,7 +8,7 @@ img: arliecoles.png
 profile:
   img: # optional, another image, if different from the one on the people page
   cv:
-  website:
+  website: https://a-coles.github.io/
   office: # address
 
 ---

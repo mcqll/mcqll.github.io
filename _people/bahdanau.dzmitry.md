@@ -1,8 +1,8 @@
 ---
 layout: person
 name: Dzmitry (Dima) Bahdanau
-position: grad
-description:
+position: assoc
+description: Mila
 img: dzmitrybahdanau.cropped.jpg
 
 profile:

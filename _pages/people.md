@@ -177,10 +177,44 @@ description: faculty, post-docs, and students in the lab, and collaborators
 
 ### Former Students
 
-{% for person in site.people %}
-{% if person.position == "alum" %}
+<ul>
+    {% for person in site.people %}
+    {%- if person.position == "alum" -%}
+    {%- if person.profile.website -%}
+    <li><a href="{{ person.profile.website }}">{{ person.name }}</a></li>
+    {%- else -%}
+    <li>{{ person.name }}</li>
+    {%- endif -%}
+    {%- endif -%}
+    {% endfor %}
+</ul>
 
-<div class="link">
+
+## External Collaborators
+
+### Student Collaborators
+
+{% assign number_printed = 0 %}
+{% for person in site.people %}
+{% if person.position == "assoc" %}
+
+{% assign mod3 = number_printed | modulo: 3 %}
+
+{% if mod3 == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="person">
+    <div class="thumbnail">
+        <a href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">
+        {% if person.img %}
+        <img class="thumbnail" src="{{ person.img | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}"/>
+        {% else %}
+        <div class="thumbnail blankbox"></div>
+        {% endif %}    
+        <span> <!-- mouse over material --> </span>
+        </a>
+    </div>
     <a href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">
         <h4>{{ person.name }}</h4>
     </a>
@@ -189,14 +223,23 @@ description: faculty, post-docs, and students in the lab, and collaborators
     {% endif %}
 </div>
 
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if mod3 == 2 %}
+</div>
+{% endif %}
 {% endif %}
 {% endfor %}
 
+{% assign mod3 = number_printed | modulo: 3 %}
+{% if mod3 != 0 %}
+</div>
+{% endif %}
 
-## External Collaborators
+
+### Other Collaborators
 
 - [Adam Albright](http://web.mit.edu/albright/www/)
-- [Dzmitry Bahdenau](https://mila.quebec/en/person/dzmitry-bahdanau/)
 - [Leon Bergen](http://profiles.ucsd.edu/leon.bergen)
 - [Matthew Carlson](http://cls.psu.edu/people/mtc173)
 - [Meghan Clayards](https://www.mcgill.ca/linguistics/people/faculty/clayards)

@@ -24,10 +24,10 @@ Add a headshot or two to the `/assets/img/` directory. Then edit the markdown fi
 ```yaml
 ---
 layout: person
-name: # Full Name Here
-position: #grad OR undergrad OR faculty OR postdoc OR alum
-description: #subtitle, such as Principal Investigator, or Associate
-img: # imagename (in the /assets/img/ directory)
+name:        # Full Name Here
+position:    # see "positions" description below
+description: # subtitle, such as Principal Investigator, or Associate
+img:         # imagename (in the /assets/img/ directory)
 
 profile:
   img: # imagename (in /assets/img) optional, another image for the personal page, if different from the one on the people page
@@ -37,4 +37,19 @@ profile:
 
 ---
 ```
-Below this, enter any markdown/html you want.
+Below this, enter the person's profile/bio as markdown/html.
+
+### Positions
+
+The `position` attribute determines where (and whether) the person will appear on the People page.
+
+Notes for specific `position`s: 
+
+- `faculty`: `description` should be the level, that is "Principal Investgator" or "Associate"
+- `postdoc`: (not currently set up)
+- `grad`:
+- `undergrad`:
+- `alum`: will appear in a simple list. link to website, if there is a website listed under `profile:website`.
+- `assoc`: this is for associated collaborators for whom we want a profile on the site. The `description` should be the external university (such as "Mila") for students being directly advised by one of the lab members.
+
+
