@@ -70,15 +70,19 @@ scholar:
   # group_by:
 
   source: /_bibliography
-  bibliography: citations.bib
+  bibliography: default.bib
   bibliography_template: bib # references file _layouts/bib.*
+
+  # bibtex_filters:
+  # - latex
+  # - markdown
 
   replace_strings: true
   join_strings: true
 
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
+  # details_dir: bibliography
+  # details_layout: bib-details.html
+  # details_link: details
 
   query: "@*"
 

@@ -5,4 +5,4 @@ title: Publications
 description:
 ---
 
-{% bibliography %}
+{% bibliography --file tim.bib --file morgan.bib %}
