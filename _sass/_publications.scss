@@ -9,6 +9,22 @@
         text-align: center;
     }
 }
+.Publications {
+    h2 {
+        // border-bottom: 1px solid $theme-color;
+        // border-top: 1px solid $theme-color;
+        font-size: 32px;
+        margin-bottom: 0px;
+        // padding: 20px 0;
+    }
+    h3 {
+        // border-bottom: 1px solid $theme-color;
+        // border-top: 1px solid $theme-color;
+        font-size: 22px;
+        margin-bottom: 30px;
+        // padding: 20px 0;
+    }
+}
 .year {
     border-top: 1px solid $light-gray;
     color: $light-gray;
@@ -20,6 +36,7 @@
     margin-bottom: 50px;
     margin-top: 20px;
     list-style-type: circle;
+    line-height: 1.25;
 
     li {
         margin: 10px 0;
@@ -71,7 +88,7 @@
             transition: all 0.15s ease;
         }
         span.abstract.hidden {
-            border: dashed 1px $background-color;
+            border:dotted 1px $background-color;
         }
         span.abstract.hidden.open {
             border-color: $grey-color;

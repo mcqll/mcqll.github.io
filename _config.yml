@@ -67,7 +67,11 @@ scholar:
 
   sort_by: year
   order: descending
-  # group_by:
+  group_by: year
+  group_order: descending
+  
+  # type_names: { article: Papers }
+
 
   source: /_bibliography
   bibliography: default.bib
