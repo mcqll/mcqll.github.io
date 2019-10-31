@@ -34,6 +34,9 @@ profile:
   office: # address, if you want this
   cv: # link to cv
   website: # link to external personal webpage
+  link: 
+    url:  # url for other link (such as google scholar profile or something)
+    text: # text to show for this link.
 
 ---
 ```
