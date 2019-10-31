@@ -25,6 +25,11 @@ layout: page
         <li><a href="{{ page.profile.website }}" target="_blank">Personal site</a></li>
       </div>
     {% endif %}
+    {% if page.profile.link %}
+      <div class="link">
+        <li><a href="{{ page.profile.link.url }}" target="_blank">{{ page.profile.link.text }}</a></li>
+      </div>
+    {% endif %}
     </ul>
   </div>
 {% endif %}
