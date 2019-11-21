@@ -8,7 +8,9 @@ Have [Ruby](Ruby), [jekyll](https://jekyllrb.com/) and [bundler](https://bundler
 
 ```bash
 gem install --user-install bundler jekyll
+bundle install
 ```
+if it is correctly configured, `bundle exec jekyll serve` should work to serve the site locally.
 
 ## Editing workflow ! IMPORTANT !
 
