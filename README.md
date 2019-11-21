@@ -4,7 +4,11 @@ Based on [al-folio](https://github.com/alshedivat/al-folio) theme. See readme th
 ## Getting started
 
 Download this repo to your local machine.
-Have [jekyll](https://jekyllrb.com/) and [bundler](https://bundler.io/) installed.
+Have [Ruby](Ruby), [jekyll](https://jekyllrb.com/) and [bundler](https://bundler.io/) installed.  For MacOS that is something like,
+
+```bash
+gem install --user-install bundler jekyll
+```
 
 ## Editing workflow ! IMPORTANT !
 
