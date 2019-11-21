@@ -4,11 +4,11 @@ Based on [al-folio](https://github.com/alshedivat/al-folio) theme. See readme th
 ## Getting started
 
 Download this repo to your local machine.
-Have [Ruby](Ruby), [jekyll](https://jekyllrb.com/) and [bundler](https://bundler.io/) installed.  You might need to install ruby with `brew install ruby`, then update your PATH by running `echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile`, followed by `source ~/.bash_profile`.
+Have [Ruby](Ruby), [jekyll](https://jekyllrb.com/) and [bundler](https://bundler.io/) installed.  You might need to install ruby with `brew install ruby`, then update your PATH by running `echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile`, and reload with `source ~/.bash_profile`.
 
 Then,
 ```bash
-gem install --user-install bundler jekyll
+gem install bundler jekyll github-pages jekyll-email-protect jekyll-scholar unicode_utils
 bundle install
 ```
 if it is correctly configured, `bundle exec jekyll serve` should work to serve the site locally.
