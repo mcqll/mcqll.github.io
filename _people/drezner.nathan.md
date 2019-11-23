@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Nathan Drezner
-position: # undergrad
+position: undergrad
 description:
 img: nathandrezner-cropped.jpg
 
