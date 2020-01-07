@@ -1,5 +1,5 @@
 # MCQLL website
-Based on [al-folio](https://github.com/alshedivat/al-folio) theme. See readme there for info (though note, I've switched from Pygments to [Rouge](https://github.com/rouge-ruby/rouge) for code highlighting).
+Based on [al-folio](https://github.com/alshedivat/al-folio) theme, with a lot of modifications. See readme there for info (though note, I've switched from Pygments to [Rouge](https://github.com/rouge-ruby/rouge) for code highlighting).
 
 ## Getting started
 
@@ -17,8 +17,8 @@ if it is correctly configured, `bundle exec jekyll serve` should work to serve t
 
 - edit a page locally (for example, edit one of the files in the `_pages/` directory, or add a new `lastname.firstname.md` file to `/_people` to add a new lab member)
 - generate the site locally with `bundle exec jekyll serve` (and preview your changes by visiting the URL that generates).
-- once you are satisfied with your edits, commit them and then `git push` (note, **this will not be published yet**)
-- then you must deploy using `./bin/deploy --user`. This deploys the site to the `master` branch
+- once you are satisfied with your edits, add and commit your changes and then `git push` (note, **this will not be published yet**)
+- you must deploy using `./bin/deploy --user`, and respond `y` to proceed. This deploys the site to the `master` branch
     - What's going on here? It's a workaround. `master` is where the generated site will live, `source` is for the source code.  When you just run `git push` you will update the source branch. But we want to just put a generated version of the site at the master branch, rather than have GitHub do this automatically. This is because GitHub pages doesn't allow reference to external plugins such as `github-scholar` it seems, so it won't work to just edit the site in the `master` branch and have GitHub do the generation for you.
 
 
@@ -77,3 +77,4 @@ scholar:
 ```
 
 However, this breaks a lot of other nice things, mostly making a lot of curly braces show up where we don't want them.
+
