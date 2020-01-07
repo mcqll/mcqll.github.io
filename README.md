@@ -24,7 +24,7 @@ if it is correctly configured, `bundle exec jekyll serve` should work to serve t
 
 ## Adding/editing the list of members
 
-There is a makdown file for each lab member in the `/_people` directory, with name format `lastname.firstname.md` (this is just to be tidy and for alphabetic ordering when the site is built).
+There is a markdown file for each lab member in the `/_people` directory, with name format `lastname.firstname.md` (this is just to be tidy and for alphabetic ordering when the site is built).
 
 Add a headshot or two to the `/assets/img/` directory. Then edit the markdown file: at the top of the file there is a short yaml header between two sets of three hyphens,  which should be filled (starting with `layout: person`)
 
@@ -77,4 +77,3 @@ scholar:
 ```
 
 However, this breaks a lot of other nice things, mostly making a lot of curly braces show up where we don't want them.
-
