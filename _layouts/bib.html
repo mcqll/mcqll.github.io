@@ -60,13 +60,13 @@
     [<a href="{{ entry.html }}" target="_blank">HTML</a>]
   {% endif %}
   {% if entry.pdf %}
-    [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">pdf</a>]
+    [<a href="{{ entry.pdf | prepend: '/assets/pdfs/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">pdf</a>]
   {% endif %}
   {% if entry.poster %}
-    [<a href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">poster</a>]
+    [<a href="{{ entry.poster | prepend: '/assets/pdfs/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">poster</a>]
   {% endif %}
   {% if entry.slides %}
-    [<a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">slides</a>]
+    [<a href="{{ entry.slides | prepend: '/assets/pdfs/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">slides</a>]
   {% endif %}
   {% if entry.code %}
     [<a href="{{ entry.code }}" target="_blank">code</a>]
