@@ -13,6 +13,11 @@ bundle install
 ```
 if it is correctly configured, `bundle exec jekyll serve` should work to serve the site locally.
 
+**NOTE:** Latest version of Jekyll (3.8.3) is not compatible with latest github-pages gem. You'll be able to work with both gems by downgrading Jekyll in your Gemfile to 3.7.3.. 
+
+To downgrad:
+In your Gemfile, change `gem 'jekyll'` to `gem 'jekyll', '3.7.3'`. Then, `bundle update`. 
+
 ## Editing workflow ! IMPORTANT !
 
 - edit a page locally (for example, edit one of the files in the `_pages/` directory, or add a new `lastname.firstname.md` file to `/_people` to add a new lab member)
@@ -77,3 +82,5 @@ scholar:
 ```
 
 However, this breaks a lot of other nice things, mostly making a lot of curly braces show up where we don't want them.
+
+**HACK**: We mannually replace `~` in the url with `\%7E` (the URL-encoding for the LaTex escape in HTML). 
