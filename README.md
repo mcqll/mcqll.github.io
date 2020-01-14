@@ -1,5 +1,9 @@
 # MCQLL website
-Based on [al-folio](https://github.com/alshedivat/al-folio) theme, with a lot of modifications. See readme there for info (though note, [I](https://github.com/postylem)'ve switched from Pygments to [Rouge](https://github.com/rouge-ruby/rouge) for code highlighting).
+The website for the Montreal Computational & Quantitative Linguistics Lab, MCQLL, lives here. See [mcqll.org](https://mcqll.org).
+
+This jekyll-based site was designed off of the [al-folio](https://github.com/alshedivat/al-folio) theme, with modifications. If you wish to make a similar site, see readme there for some info (though note, [I](https://github.com/postylem)'ve switched from Pygments to [Rouge](https://github.com/rouge-ruby/rouge) for code highlighting).
+
+Below is information you should find useful if you are editing the MCQLL site.
 
 ## Getting started
 
@@ -13,10 +17,10 @@ bundle install
 ```
 if it is correctly configured, `bundle exec jekyll serve` should work to serve the site locally.
 
-**NOTE:** Latest version of Jekyll (3.8.3) is not compatible with latest github-pages gem. You'll be able to work with both gems by downgrading Jekyll in your Gemfile to 3.7.3.. 
+**NOTE:** Latest version of Jekyll (3.8.3) is not compatible with latest github-pages gem. You'll be able to work with both gems by downgrading Jekyll in your Gemfile to 3.7.3. 
 
-To downgrad:
-In your Gemfile, change `gem 'jekyll'` to `gem 'jekyll', '3.7.3'`. Then, `bundle update`. 
+To downgrade jekyll:
+In the Gemfile, change `gem 'jekyll'` to `gem 'jekyll', '3.7.3'`. Then, `bundle update`.  This should already be so in the current version of the Gemfile in this repository.
 
 ## Editing workflow ! IMPORTANT !
 
@@ -83,4 +87,4 @@ scholar:
 
 However, this breaks a lot of other nice things, mostly making a lot of curly braces show up where we don't want them.
 
-**HACK**: We mannually replace `~` in the url with `\%7E` (the URL-encoding for the LaTex escape in HTML). 
+**HACK**: Currently there is just a hack solution: within the bib files in `_/bibliography/*.bib`, manually replace all occurences of the character `~` (in a URL) with the string `\%7E` (that is, the [URL-encoding](https://en.wikipedia.org/wiki/Percent-encoding#Character_data) for the LaTex escape in HTML). 
