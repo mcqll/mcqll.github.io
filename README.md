@@ -88,7 +88,8 @@ scholar:
 However, this breaks a lot of other nice things, mostly making a lot of curly braces show up where we don't want them.
 
 **HACK**: Currently there is just a hack solution: within the bib files in `_/bibliography/*.bib`, manually replace all occurences of the character `~` (in a URL) with the string `\%7E` (that is, the [URL-encoding](https://en.wikipedia.org/wiki/Percent-encoding#Character_data) for the LaTex escape in HTML). 
-## Putting links into bib files
+
+### Putting links into bib files
 
 By setting one of the following tags in a given bib file, links are generated in the following way, either to internal or external files:
 
