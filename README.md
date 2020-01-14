@@ -88,3 +88,27 @@ scholar:
 However, this breaks a lot of other nice things, mostly making a lot of curly braces show up where we don't want them.
 
 **HACK**: Currently there is just a hack solution: within the bib files in `_/bibliography/*.bib`, manually replace all occurences of the character `~` (in a URL) with the string `\%7E` (that is, the [URL-encoding](https://en.wikipedia.org/wiki/Percent-encoding#Character_data) for the LaTex escape in HTML). 
+## Putting links into bib files
+
+By setting one of the following tags in a given bib file, links are generated in the following way, either to internal or external files:
+
+- `url`/`html`/`preprint`/`code` `= {http://somewhere.html}` - a link to the URL `http://somewhere.html` (presumably site-external)
+- `pdf`/`poster`/`slides` `= {some.pdf}` - a link to a file `some.pdf` in the `/_assets/pdfs/` folder (site internal)
+- `abstract = {Some text}` - a collapsing box with the text 'Some text' in it
+- `arxiv = {XXXX.YYYYY}` - a link to `http://arxiv.org/abs/XXXX.YYYYY`
+- `lingbuzz = {somewhere.html}` a link to `https://ling.auf.net/lingbuzz/Something"`
+
+
+For example, in the following, bib file, 
+```
+@article{portelance.e:2017,
+  Title = {Mildly context-sensitive grammar induction and variational {B}ayesian inference},
+  Author = {Portelance, Eva and Bruno, Chris and Bergen, Leon and O'Donnell, Timothy J.},
+  Journal = {{arXiv}},
+  Number = {arXiv:1710.11350 [cs.CL]},
+  arxiv = {1710.11350},
+  Year = {2017},
+  abstract = {The following technical report presents a formal approach to probabilistic minimalist grammar parameter estimation. We describe a formalization of a minimalist grammar. We then present an algorithm for the application of variational Bayesian inference to this formalization.}}
+```
+the  `arxiv` tag generates a link to the appropriate page on arxiv.org (https://arxiv.org/abs/1710.11350), and the `abstract` tag generates a collapsing html element with the text of the abstract in it.
+
