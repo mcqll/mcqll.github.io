@@ -251,6 +251,7 @@ description: faculty, post-docs, and students in the lab, and collaborators
 - [Roger Levy](http://www.mit.edu/~rplevy/)
 - [Tal Linzen](http://tallinzen.net)
 - [Martina Martinovi&#263;](http://inamartinovic.com)
+- [Samuel Mehr](https://mehr.cz/)
 - [Emily Morgan](https://sites.tufts.edu/emilymorgan/)
 - [Tamara Rathcke](https://www.kent.ac.uk/secl/ell/staff/rathcke.html)
 - [Jason Riggle](http://hum.uchicago.edu/~jriggle/)
