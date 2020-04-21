@@ -1,7 +1,7 @@
 ---
 layout: post
 title: April 22nd - Spandana Gella presents # only useful when inline is false
-date: 2020-04-20 10:20:00-0400
+date: 2020-04-21 8:20:00-0400
 inline: false # if inline is true, just don't include the title field
 ---
 
