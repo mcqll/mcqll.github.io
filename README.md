@@ -30,6 +30,33 @@ In the Gemfile, change `gem 'jekyll'` to `gem 'jekyll', '3.7.3'`. Then, `bundle 
 - you must deploy using `./bin/deploy --user`, and respond `y` to proceed. This deploys the site to the `master` branch
     - What's going on here? It's a workaround. `master` is where the generated site will live, `source` is for the source code.  When you just run `git push` you will update the source branch. But we want to just put a generated version of the site at the master branch, rather than have GitHub do this automatically. This is because GitHub pages doesn't allow reference to external plugins such as `github-scholar` it seems, so it won't work to just edit the site in the `master` branch and have GitHub do the generation for you.
 
+## News: Adding lab talks or other announcements
+
+To add a new item to the News section, create a new document in the `_news/` directory.  For lab meetings, name this file with "meeting" followed by the date, like `meeting-2020-04-22.md`.
+
+Follow this template:
+
+```
+---
+layout: post
+title: April 22nd - Spandana Gella presents 
+date: 2020-04-21 8:20:00-0400 # date that this post is added (not presentation date)
+inline: false 
+---
+
+**Presenter**, will present on *topic* at this week's lab meeting. 
+
+- When: **Wednesday, April 22nd, at 14:00 UTC-4**
+- Zoom: [Register for MCQLL meetings beforehand here](https://mcgill.zoom.us/meeting/register/tJArfuitrjksHdAss5v1qiGR5VzCtPtiDm9x)
+
+#### Abstract
+<blockquote>
+  Abstract here.
+</blockquote>
+
+#### Bio
+Bio here. 
+```
 
 ## Adding/editing the list of members
 
