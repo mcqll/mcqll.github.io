@@ -40,14 +40,13 @@ Follow this template:
 ---
 layout: post
 title: April 22nd - Spandana Gella presents 
-date: 2020-04-21 8:20:00-0400 # date that this post is added (not presentation date)
+date: 2020-04-21 # date of this post (use presentation date)
 inline: false 
 ---
 
 **Presenter**, will present on *topic* at this week's lab meeting. 
 
 - When: **Wednesday, April 22nd, at 14:00 UTC-4**
-- Zoom: [Register for MCQLL meetings beforehand here](https://mcgill.zoom.us/meeting/register/tJArfuitrjksHdAss5v1qiGR5VzCtPtiDm9x)
 
 #### Abstract
 <blockquote>
@@ -57,6 +56,12 @@ inline: false
 #### Bio
 Bio here. 
 ```
+
+Note: allowing future-dated posts requires the line in the `_config.yml`:
+```yaml
+future: true
+```
+if this is changed, posts about future lab meetings will not show up.
 
 ## Adding/editing the list of members
 
