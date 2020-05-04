@@ -9,7 +9,7 @@ profile:
   img: jaclouhoo2.jpg # optional, another image, if different from the one on the people page
   office: # address
   cv:
-  website: http://postylem.github.io/about/
+  website: http://jahoo.github.io
 
 ---
 
