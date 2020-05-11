@@ -4,9 +4,8 @@ permalink: /news/
 title: News
 description: Montreal Computational & Quantitative Linguistics Lab
 
-news: false
+news:
+  noheader: true
+calendar: true
 social: false
 ---
-<div class="news">
-  {% include news-items.html %}
-</div>

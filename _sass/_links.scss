@@ -8,10 +8,9 @@ a {
     }
 }
 
-article a, .news a {
+article a, .news a, .calendar a {
     color: $theme-color;
     font-weight: 100;
-
     &:hover {
         text-decoration: underline;
     }
@@ -19,7 +18,6 @@ article a, .news a {
 
 .social a {
     color: $text-color;
-
     &:hover { color: $theme-color; }
 }
 

@@ -1,5 +1,7 @@
 <div class="news">
-  <h2>News</h2>
+  {% unless page.news.noheader  %}
+    <h2>News</h2>
+  {% endunless %}
   {% if site.news  %}
     {% include news-items.html %}
   {% else %}
