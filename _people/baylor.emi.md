@@ -7,8 +7,8 @@ img: emibaylor.jpg
 
 profile:
   img: # optional, another image, if different from the one on the people page
-  cv: https://emibaylor.github.io/
-  website:
+  cv: 
+  website: https://emibaylor.github.io/
   office: # address
 
 ---
