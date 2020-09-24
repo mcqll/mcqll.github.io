@@ -18,6 +18,10 @@ layout: default
     {% include news.html %}
   {% endif %}
 
+  {% if page.calendar %}
+    {% include calendar.html %}
+  {% endif %}
+
   {% if page.social %}
     {% include social.html %}
   {% endif %}

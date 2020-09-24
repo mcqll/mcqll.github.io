@@ -32,7 +32,7 @@ Most existing lab projects are written in [Python](https://www.python.org) and [
 ### Useful Courses
 The following McGill courses have been helpful for past projects, and provide a solid background for computational linguistics more generally:
 
-- [Comp 445](https://www.mcgill.ca/study/courses/comp-445)/[Ling 445](https://www.mcgill.ca/study/courses/ling-445) - Computational Linguistics
+- [Comp 445](https://www.mcgill.ca/study/courses/comp-445)/[Ling 445](https://www.mcgill.ca/study/courses/ling-445)/[Ling 645](https://www.mcgill.ca/study/courses/ling-445) - Computational Linguistics
 - [Ling 330](https://www.mcgill.ca/study/courses/ling-330) - Phonetics
 - [Ling 360](https://www.mcgill.ca/study/courses/ling-360) - Introduction to Semantics
 - [Ling 371](https://www.mcgill.ca/study/courses/ling-371) - Syntax 1
