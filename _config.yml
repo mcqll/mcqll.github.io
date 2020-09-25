@@ -40,7 +40,7 @@ collections:
     output: true
     permalink: /people/:path/
 future: true # <-- to automatically render future-dated posts
-news_limit: 5
+news_limit: 6
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
