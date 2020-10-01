@@ -44,6 +44,9 @@
   {% if entry.abstract %}
     [<a class="abstract">abstract</a>]
   {% endif %}
+  {% if entry.doi %}
+    [<a href="http://doi.org/{{ entry.doi }}" target="_blank">DOI</a>]
+  {% endif %}
   {% if entry.arxiv %}
     [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
   {% endif %}
