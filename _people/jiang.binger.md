@@ -9,8 +9,10 @@ profile:
   img: bingerjiang.jpg # optional, another image, if different from the one on the people page
   office: # address
   cv:
-  website:
+  website: https://sites.google.com/site/bingerjiang1936/
 
 ---
 
-I’m interested in phonetics, phonology and computational linguistics. I previously worked on speech perception with a focus on individual variability. My current project is on using the bottleneck features extracted from deep neural network based speech recognition systems to explore linguistic representations for various phonological contrasts.
+I am a Ph.D. candidate in linguistics at McGill university. My research interests lie in phonetics, laboratory phonology, and computational linguistics. I am interested in bridging speech technologies with human speech perception, with a focus on using automatic speech recognition (ASR) systems and large speech corpora as tools to understand human speech processing. 
+
+I am currently working on using deep neural networks to explore acoustic tone space in Mandarin Chinese (in prep), and using various ASR systems to investigate the minimal linguistic knowledges enabling a hypothesis-neutral listener to display perceptual effects of phonology (compensation for phonological assimilation) as humans. Before shifting to computational modelling, I worked on the general pattern and individual variability in perceiving multiple cues (involving breathy voice quality) for the tonal register contrast in Chinese Wu dialects.
