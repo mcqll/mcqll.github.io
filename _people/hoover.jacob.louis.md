@@ -13,4 +13,4 @@ profile:
 
 ---
 
-I’m interested in logic, mathematical linguistics, and the generative / expressive capacity of formal systems, as well as information theory, and examining what both human and machine learning might be able to tell us about the underlying structure of language.
+I’m interested in logic, mathematical linguistics, and the generative / expressive capacity of formal systems, as well as information theory, and examining what both human and machine learning might be able to tell us about the underlying structure of language. I also wrangle this website.
