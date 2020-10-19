@@ -39,14 +39,15 @@ Follow this template:
 ```
 ---
 layout: post
-title: April 22nd - Spandana Gella presents 
+title: April 22nd - Presenter Name
 date: 2020-04-21 # date of this post (use presentation date)
+published: true  # can set to false for unpublished drafts 
 inline: false 
 ---
 
-**Presenter**, will present on *topic* at this week's lab meeting. 
+At this week's lab meeting, **Presenter Name** will be presenting on *topic*.
 
-- When: **Wednesday, April 22nd, at 14:00 UTC-4**
+- **{{ page.date | date: '%A, %B %-d' }}**, at **13:30** (Montreal time, UTC-4).
 
 #### Abstract
 <blockquote>
