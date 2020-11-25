@@ -13,4 +13,4 @@ profile:
 
 ---
 
-I am a PhD student affiliated with [Mila](https://mila.quebec/en/person/koustuv-sinha/) and [Reasoning and Learning Lab](http://rl.cs.mcgill.ca/) at McGill University. I am supervised by Prof Joelle Pineau, and collaborate with Prof William Hamilton and Prof [Timothy O'Donnell](/people/odonnell.timothy). My primary research interests are Generative Language Modeling (Dialog Systems) and Language Reasoning. I am also interested in exploring strong linguistic priors in designing machine learning systems for text generation and representation.
+I am a PhD candidate affiliated with [Mila](https://mila.quebec/en/person/koustuv-sinha/) and [Reasoning and Learning Lab](http://rl.cs.mcgill.ca/) at McGill University. I am supervised by Prof Joelle Pineau, and collaborate with Prof William Hamilton and Prof [Timothy O'Donnell](/people/odonnell.timothy). My primary research interests are Generative Language Modeling (Dialog Systems) and Language Reasoning. I am also interested in exploring strong linguistic priors in designing machine learning systems for text generation and representation.
