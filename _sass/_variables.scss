@@ -65,6 +65,7 @@ $lighter-gray:      #eee !default;
 
 $grey-color:        #828282;
 $grey-color-light:  lighten($grey-color, 40%);
+$grey-color-bitlight:  lighten($grey-color, 30%);
 $grey-color-dark:   darken($grey-color, 25%);
 
 $darken-1:          rgba(#000,.0625) !default;
