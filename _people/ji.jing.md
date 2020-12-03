@@ -1,14 +1,15 @@
 ---
 layout: person
 name: Jing Ji
-position: gradhidden
+position: grad
 description:
-img:
+img: jingji-cropped.jpg
 
 profile:
-  img: # optional, another image, if different from the one on the people page
+  img: jingji.jpg # optional, another image, if different from the one on the people page
   cv:
   website:
   office: # address
 
 ---
+I am interested in formalizing linguistic processes with computational methods and understanding speech properties.
