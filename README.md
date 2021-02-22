@@ -49,9 +49,9 @@ version of the Gemfile in this repository.
       push` you will update the source branch. But we want to just put a
       generated version of the site at the master branch, rather than have
       GitHub do this automatically. This is because GitHub pages doesn't allow
-      reference to external plugins such as `github-scholar` it seems, so it
-      won't work to just edit the site in the `master` branch and have GitHub do
-      the generation for you.
+      reference to certain external plugins. Currently,`github-scholar` is such
+      an unsupported plugin. So it won't work to just edit the site in the
+      `master` branch and have GitHub do the generation for you.
 
 ## News: Adding lab talks or other announcements
 
@@ -127,7 +127,7 @@ on the People page.
 
 Notes for specific `position`s:
 
-- `faculty`: `description` should be the level, that is "Principal Investgator"
+- `faculty`: `description` should be the level, that is "Principal Investigator"
   or "Associate"
 - `postdoc`: (not currently set up to display on People page)
 - `grad`:
@@ -194,6 +194,7 @@ the following way, either to internal or external files:
 - `lingbuzz = {somewhere.html}` a link to
   `https://ling.auf.net/lingbuzz/Something"`
 
+#### Example 
 
 For example, in the following, bib file, 
 ```bibtex
