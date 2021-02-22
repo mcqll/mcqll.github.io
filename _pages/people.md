@@ -243,6 +243,7 @@ description: faculty, post-docs, and students in the lab, and collaborators
 - [Leon Bergen](http://profiles.ucsd.edu/leon.bergen)
 - [Matthew Carlson](http://cls.psu.edu/people/mtc173)
 - [Meghan Clayards](https://www.mcgill.ca/linguistics/people/faculty/clayards)
+- [Richard Futrell](http://socsci.uci.edu/~rfutrell/)
 - [Joshua Hartshorne](http://l3atbc.org/JKHartshorne.About.html)
 - [Yoonjung Kang](https://www.yoonjungkang.com)
 - [Roni Katzir](https://english.tau.ac.il/profile/rkatzir)
