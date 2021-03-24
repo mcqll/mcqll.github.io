@@ -36,8 +36,9 @@ if it is correctly configured, `bundle exec jekyll serve` should work to serve t
 
 - [There may be issues with jekyll-scholar and
   github-pages](https://github.com/alshedivat/al-folio/issues/161) if you try to
-  use Ruby version 3.  Use RVM to insta ll and use an earlier version of ruby,
+  use Ruby version 3.  Use RVM to install and use an earlier version of ruby,
   like `rvm install 2.7.2` then `rvm use 2.7.2`.  Check with `ruby -v`.
+  **If you are trying to build and getting issues with your ruby version, this may solve it.**
 
 
 ## Editing workflow ! IMPORTANT !
