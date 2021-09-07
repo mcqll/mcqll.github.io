@@ -1,7 +1,7 @@
 ---
 layout: person
 name: William L. Hamilton
-position: faculty
+position: former faculty
 description: Associate
 img: willhamilton.jpg
 
