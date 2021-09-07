@@ -7,7 +7,6 @@ inline: false # if inline is true, just don't include the title field
 
 Schedule of presentations in lab meetings:
 
-[(see in Google Calendar)](https://calendar.google.com/calendar?cid=cW1hbGIzNXBxdm5xbWVncDMxN3BobWc5c3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+[(see in Google Calendar)](https://calendar.google.com/calendar/embed?src=tlug98ogjdq49n01kpp277ascs%40group.calendar.google.com&ctz=America%2FNew_York)
 
-<iframe src="https://calendar.google.com/calendar/embed?src=qmalb35pqvnqmegp317phmg9ss%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-
+<iframe src="https://calendar.google.com/calendar/embed?src=tlug98ogjdq49n01kpp277ascs%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
