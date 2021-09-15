@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Michelle Yang
-position: grad
+position: undergrad
 description:
 img: michelleyang-cropped.jpg
 
