@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Bing'er Jiang
-position: grad
+position: alum
 description:
 img: bingerjiang.cropped.jpg
 

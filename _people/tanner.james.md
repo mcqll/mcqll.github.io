@@ -1,7 +1,7 @@
 ---
 layout: person
 name: James Tanner
-position: grad
+position: alum
 description:
 img: jamestanner.png
 
