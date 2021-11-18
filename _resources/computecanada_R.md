@@ -44,7 +44,9 @@ This is a short tutorial to test using Compute Canada for R computing with `brms
 
 6. Quit R with `q()`. You will return to the bash prompt on the login node.
 
-Now it should be all set.  You should only have to run step 5 once (the packages will remain installed for you for all future sessions on Beluga).
+Now it should be all set.  
+
+Note: *Steps 1-4 you'll use anytime you use Compute Canada for an R project. You should only have to run step 5 once ever (the packages will remain installed for you for all future sessions on Beluga).  If you need other packages in the future, just open R and `install.packages` as in step 5 to install them too.*
 
 ## 2. Test fitting models in R
 
