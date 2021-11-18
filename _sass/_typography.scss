@@ -7,6 +7,10 @@ body {
     font-weight: 100;
 }
 
+code.highlighter-rouge {
+    font-weight: 400;
+}
+
 abbr {
     border-bottom: $abbr-border-bottom;
     cursor: help;

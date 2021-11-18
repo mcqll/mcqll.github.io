@@ -51,5 +51,15 @@ The following McGill courses have been helpful for past projects, and provide a 
 - [International Conference on Computational Linguistics (COLING)](https://coling2018.org)
 - [Conference on Empirical Methods in Natural Language Processing](http://emnlp2018.org)
 
+### Lab Resources
 
-### [MCQLL wiki](http://wiki.mcqll.org/)
+{% for res in site.resources %}
+{%- if res.layout == "resourcepost" -%}
+	- [{{ res.title }}]({{ res.url }})
+{%- endif -%}
+{% if res.description %}
+	<br/>{{ res.description }}
+{% endif %}
+{% endfor %}
+
+<!-- ### [MCQLL wiki](http://wiki.mcqll.org/) -->

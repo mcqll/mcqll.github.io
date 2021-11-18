@@ -1,35 +1,38 @@
 pre,
 pre code {
   background-color: transparent;
+  border: 2px solid $grey-color-light;
   border-radius: $pre-border-radius;
+  font-family: $code-font-family;
 }
 
-pre,
-code {
-  font-family: $monospace-font-family;
-}
 
 code {
-  color: $code-color;
+  // color: $code-color;
   font-size: 85%;
   padding-bottom: 0.1em;
   padding-left: 0.2em;
   padding-right: 0.2em;
   padding-top: 0.1em;
+  background: $code-background-color;
+    
 }
+
 
 pre {
-  padding: 1.125em;
-  line-height: 1.11;
-  overflow-x: scroll;
-  margin-bottom: 0.88em;
-  background-color: $pre-background-color;
+    padding: 6px 6px;
+    overflow-x: auto;
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
-.highlight .p {
-  font-size: 1.125rem;
-  line-height: 1;
-}
+// .highlight .p {
+//   font-size: 1.125rem;
+//   line-height: 1;
+// }
 
 pre {
     counter-reset: line-numbering;

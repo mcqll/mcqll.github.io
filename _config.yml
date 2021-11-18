@@ -36,6 +36,9 @@ collections:
   # projects:
   #   output: true
   #   permalink: /projects/:path/
+  resources:
+    output: true
+    permalink: /resources/:path/
   people:
     output: true
     permalink: /people/:path/
