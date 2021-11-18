@@ -19,7 +19,7 @@ This is a short tutorial to test using Compute Canada for R computing with `brms
   where `${username}` is your Compute Canada username (not your CCI).  You could also replace `beluga` with another Compute Canada cluster name, if you're not in Quebec (see [here](https://www.computecanada.ca/research-portal/accessing-resources/available-resources/)).
   You will be prompted to enter a password. Note: if you have entered your public ssh key on Compute Canada's website, you won't need a password (you can generate a key, or if you have a key on your computer already it's probably at `~/.ssh/id_rs.pub`; you can paste the contents of that file on the Compute Canada website at _My Account > Manage SSH Keys_, and press 'Add Key' and then you won't need to use a password to login).
 
-3. Once you're logged into, you will see a welcom messagem and a bash prompt that looks something like `[username@beluga3 ~]$`.  You now need to load the necessary modules.  Use the following command.  Note: the bioconductor module is necessary for `brms` to work.
+3. Once you're logged into, you will see a welcome message and a bash prompt that looks something like `[username@beluga3 ~]$`.  You now need to load the necessary modules.  Use the following command.  Note: the bioconductor module is necessary for `brms` to work.
   ```bash
   module load gcc/9.3.0 r-bundle-bioconductor/3.12 r/4.1.2
   ```
