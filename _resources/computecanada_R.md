@@ -192,4 +192,6 @@ When finished, the following outputs will be in the home directory
 - An out file with a name like `Rtest-27701226.out`, containing the stdout stuff from the R script (and if the job crashed, useful info may be in there).
 - Two plots, in the `test-plots/` directory.
 
+## 3. Transferring files
 
+To  transfer files between your laptop and your home directory on Beluga, you can use [`scp`](https://linux.die.net/man/1/scp) (OS X/Linux) or Windows equivalents for small enough files, and Globus for anything larger; see [here](https://docs.computecanada.ca/wiki/Transferring_data).
