@@ -30,12 +30,35 @@
 
     <span class="periodical">
     {% if entry.type == "article" %}
-      <em>{{entry.journal}}</em>
+      <em>{{entry.journal}}</em>.
     {% elsif entry.type == "inproceedings" %}
-      <em>In {{entry.booktitle}}</em>
+      In <em>{{entry.booktitle}}</em>.
+      {% if entry.editor %}
+        Ed. {{entry.editor}}.
+      {% endif %}
+    {% elsif entry.howpublished %}
+      {{entry.howpublished}}.
+    {% endif %}
+    {% if entry.pages %}
+      {{entry.pages}}.
+    {% endif %}
+    {% if entry.publisher %}
+      {{entry.publisher}}.
+    {% endif %}   
+    {% if entry.address %}
+      {{entry.address}}.
+    {% endif %}     
+    {% if entry.note %}
+      {{entry.note}}.
+    {% endif %} 
+    {% if entry.day %}
+      {{entry.day}}
+    {% endif %}
+    {% if entry.month %}
+      {{entry.month | capitalize }},
     {% endif %}
     {% if entry.year %}
-      {{entry.year}}
+      {{entry.year}}.
     {% endif %}
     </span>
   {% endif %}
