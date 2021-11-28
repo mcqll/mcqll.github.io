@@ -2,8 +2,8 @@
 layout: resourcepost
 title: Compute Canada tutorial
 description: Steps to get set up to fit R models on Compute Canada
-author: Jacob
-date: 17 November 2021
+author: Jacob and Connie
+date: 26 November 2021
 ---
 
 This is a short tutorial to test using Compute Canada for R computing with `brms` and `mgcv`. See also [this blog post](https://medium.com/the-nature-of-food/how-to-run-your-r-script-with-compute-canada-c325c0ab2973). For complete information see the extensive [Compute Canada docs](https://docs.computecanada.ca/wiki/Compute_Canada_Documentation).
@@ -167,12 +167,14 @@ cat > Rtest-job.sh << EOF
 #SBATCH --cpus-per-task=8
 #SBATCH --job-name=Rtest
 #SBATCH --output=%x-%j.out
+#SBATCH --mail-user=${EMAIL}
+#SBATCH --mail-type=ALL
 module load gcc/9.3.0 r-bundle-bioconductor/3.12 r/4.1.2
 Rscript Rtest.R
 EOF
 ```
 
-This requests 15 minutes of time on a compute node with 8 CPUs, and 4GB of RAM per each. Replace `${ACCOUNT}` with the account name you want to use.  The `--output` flag specifies the format for the output file you'll get when your job terminates.  In this case, we're setting it to be `Rtest-jobnumber.out`
+This requests 15 minutes of time on a compute node with 8 CPUs, and 4GB of RAM per each. Replace `${ACCOUNT}` with the account name you want to use.  Replace `${EMAIL}` with your email address to be alerted when the job starts/finishes/fails. The `--output` flag specifies the format for the output file you'll get when your job terminates.  In this case, we're setting it to be `Rtest-jobnumber.out`.
 
 Make a directory for the test plots to be put in:
 
@@ -196,4 +198,13 @@ When finished, the following outputs will be in the home directory
 
 ## 3. Transferring files
 
-To  transfer files between your laptop and your home directory on Beluga, you can use [`scp`](https://linux.die.net/man/1/scp) (OS X/Linux) or Windows equivalents for small enough files, and Globus for anything larger; see [here](https://docs.computecanada.ca/wiki/Transferring_data).
+Beyond just running a simple test like above, you'll likely need to transfer datasets and scripts to the cluster before running things.
+
+To  transfer files between your local machine and your home directory on Béluga
+
+- you can use [`scp`](https://linux.die.net/man/1/scp) (OS X/Linux) or Windows equivalents to copy files via SSH.  For example, to copy a script from your laptop to your home directory on Béluga, run something like the following (on your local terminal):
+  ```bash
+  scp /path/to/myscript.R ${username}@beluga.computecanada.ca:/home/${username}/
+  ```
+  You can use it similarly to copy output files back to your local machine.
+- for large/multiple files, Compute Canada [recommends the _Globus_ system](https://docs.computecanada.ca/wiki/Transferring_data).
