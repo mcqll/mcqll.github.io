@@ -21,26 +21,22 @@ This is a short tutorial to test using Compute Canada for R computing with `brms
 
 3. Once you're logged into, you will see a welcome message and a bash prompt that looks something like `[username@beluga3 ~]$`.  You now need to load the necessary modules.  Use the following command.  Note: the bioconductor module is necessary for `brms` to work.
   ```bash
-  module load gcc/9.3.0 r-bundle-bioconductor/3.12 r/4.1.2
-  ```
+module load gcc/9.3.0 r-bundle-bioconductor/3.14 r/4.1.2
+```
   You may get messages about modules being replaced/reloaded, which you can ignore.
 
 4. Start an R session
-  ```bash
-  R
-  ```
+```bash
+R
+```
 
 5. Once R is started, install the R packages you want to use. 
-  ```R
-  install.packages(c("tidyverse", "mgcv", "brms"),
-                   repos = "https://mirror.rcg.sfu.ca/mirror/CRAN/")
-  ```
+```R
+install.packages(c("tidyverse", "mgcv", "brms"),
+                    repos = "https://utstat.toronto.edu/cran/")
+```
   You may get a warning message saying `'lib = " ... "' is not writeable`, asking if I want to use a personal library (respond `y`), and then asking if you want to create the personal library directory to install packages into (respond `y` again).
-  The packages will install (and take some time, like an hour).  If this succeeds, you should get a message like:
-  ```
-  The downloaded source packages are in
-  	‘/tmp/RtmpEFrlg1/downloaded_packages’
-  ```
+  The packages will install (and take some time, like a half-hour).  If this succeeds, you should get a message like: `The downloaded source packages are in ‘/tmp/.../downloaded_packages’`, and no warnings.
 
 6. Quit R with `q()`. You will return to the bash prompt on the login node.
 
@@ -169,7 +165,7 @@ cat > Rtest-job.sh << EOF
 #SBATCH --output=%x-%j.out
 #SBATCH --mail-user=${EMAIL}
 #SBATCH --mail-type=ALL
-module load gcc/9.3.0 r-bundle-bioconductor/3.12 r/4.1.2
+module load gcc/9.3.0 r-bundle-bioconductor/3.14 r/4.1.2
 Rscript Rtest.R
 EOF
 ```
