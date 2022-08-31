@@ -7,10 +7,8 @@ img: timodonnell-cropped.jpg
 
 profile:
   img: # optional, another image, if different from the one on the people page
-  cv: /assets/pdfs/todonnell-long.pdf
-  website: http://people.linguistics.mcgill.ca/~timothy.odonnell/
-  office: # address
-
+  website: https://todonnell.github.io/
+  office: #
 ---
 
 I am an assistant professor of linguistics at [McGill University](https://www.mcgill.ca/linguistics/).
