@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Benjamin LeBrun
-position: undergrad
+position: grad
 description:
 img: benlebrun.jpg
 
@@ -13,4 +13,4 @@ profile:
 
 ---
 
-I am a third year undergraduate student double majoring in linguistics and computer science. My research interest involves quantifying how much of the complexity of natural language is learned by large, transformer-based language models. 
+My research interest involves quantifying how much of the complexity of natural language is learned by large, transformer-based language models. 

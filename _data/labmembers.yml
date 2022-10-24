@@ -1,0 +1,110 @@
+# Faculty
+
+"O’Donnell":
+  - firstname: ["Timothy", "Tim", "T.", "Timothy John", "Timothy J.", "T. J.", "T.J."]
+    position: faculty
+    url: people/odonnell.timothy
+
+Reddy:
+  - firstname: ["Siva", "S."]
+    position: faculty
+    url: people/reddy.siva
+
+Sonderegger:
+  - firstname: ["Morgan", "M."]
+    position: faculty
+    url: people/sonderegger.morgan
+
+Cheung:
+  - firstname: ["Jackie", "Jackie Chi Kit", "J.", "J. C. C."]
+    position: faculty
+    url: people/cheung.jackie.chi.kit
+
+# Grads
+
+Baylor:
+  - firstname: [Emi, "E."]
+    position: grad
+    url: people/baylor.emi
+
+Bradford:
+  - firstname: [Laurestine, "L."]
+    position: grad
+    url: people/bradford.laurestine
+
+Goodwin:
+  - firstname: ["Emily", "E."]
+    position: grad
+    url: people/goodwin.emily
+
+Hoover:
+  - firstname: ["Jacob", "Jacob Louis", "Jacob L.", "J.", "J. L."]
+    position: grad
+    url: people/hoover.jacob.louis
+
+Ji:
+  - firstname: ["Jing", "J."]
+    position: grad
+    url: people/ji.jing
+
+Jiang:
+  - firstname: ["Bing'er", "Bing’er", "B."]
+    position: alum
+    url: people/jiang.binger
+
+LeBrun:
+  - firstname: ["Benjamin", "Ben", "B."]
+    position: grad
+    url: people/lebrun.benjamin
+
+Palucci:
+  - firstname: ["Jonathan", "J."]
+    position: grad
+    url: people/palucci.jonathan
+
+Sinha:
+  - firstname: ["Koustuv", "K."]
+    position: grad
+    url: people/sinha.koustuv
+
+Smith:
+  - firstname: ["Irene", "I."]
+    position: grad
+    url: people/smith.irene
+
+Socolof:
+  - firstname: ["Michaela", "M."]
+    position: grad
+    url: people/socolof.michaela
+
+Tanner:
+  - firstname: ["James", "J."]
+    position: alum
+    url: people/tanner.james
+
+Yang:
+  - firstname: ["Michelle", "M."]
+    position: undergrad
+    url: people/yang.michelle
+
+# Collaborators
+
+Bahdanau:
+  - firstname: ["Dzmitry", "Dima", "D."]
+    position: assoc
+    url: people/bahdanau.dzmitry
+    
+Braginsky:
+  - firstname: ["Mika", "M."]
+    position: assoc
+    url: people/braginsky.mika
+  
+Harasim:
+  - firstname: ["Daniel", "D."]
+    position: assoc
+    url: people/harasim.daniel
+
+Portelance:
+  - firstname: ["Eva", "E."]
+    position: assoc
+    url: people/portelance.eva

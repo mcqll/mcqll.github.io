@@ -99,6 +99,9 @@ if this is changed, posts about future lab meetings will not show up.
 
 ## Adding/editing the list of members
 
+> __Note:__ In addition to what is described below, there is an additional file `_data/labmembers.yml`, which has a list of current and previous lab members. 
+> Currently, this file is used only to make links to lab member pages from the [bibliography](mcqll.org/publications).  This means you have to add labmembers names and info in both places which is not ideal. __TODO:__ Consolidate. 
+
 There is a markdown file for each lab member in the `/_people` directory, with
 name format `lastname.firstname.md` (this is just to be tidy and for alphabetic
 ordering when the site is built).

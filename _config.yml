@@ -68,13 +68,12 @@ scholar:
   style: apa
   locale: en
 
-  sort_by: year
+  sort_by: [year, month, day]
   order: descending
   group_by: year
   group_order: descending
   
   # type_names: { article: Papers }
-
 
   source: /_bibliography
   bibliography: default.bib

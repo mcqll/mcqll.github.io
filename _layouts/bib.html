@@ -16,15 +16,32 @@
     <span class="title">{{entry.title}}</span>
     <span class="author">
       {% for author in entry.author_array %}
-        {% if forloop.length == 1 %}
-          {{author.first}} {{author.last}}
-        {% else %}
-          {% unless forloop.last %}
-            {{author.first}} {{author.last}},
-          {% else %}
-            and {{author.first}} {{author.last}}
-          {% endunless %}
-        {% endif %}
+        {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+
+        {%- assign labmember_url = nil -%}
+        {%- if site.data.labmembers[author_last_name] -%}
+          {%- for labmember in site.data.labmembers[author_last_name] -%}
+            {%- if labmember.firstname contains author.first -%}
+              {%- assign labmember_url = labmember.url -%}
+              {%- break -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+
+        {%- if forloop.length > 1 -%}
+          {%- if forloop.first == false -%},&nbsp;{%- endif -%}
+          {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
+        {%- endif -%}
+        {%- if author_is_self -%}
+          <em>{{author.first}} {{author.last}}</em>
+        {%- else -%}
+          {%- if labmember_url -%}
+            <a href="{{labmember_url}}">{{author.first}} {{author.last}}</a>
+          {%- else -%}
+            {{author.first}} {{author.last}}
+          {%- endif -%}
+        {%- endif -%}
+
       {% endfor %}
     </span>
 
