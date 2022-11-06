@@ -2,7 +2,7 @@
 layout: page
 permalink: /news/
 title: News
-description: Montreal Computational & Quantitative Linguistics Lab
+description: Montréal Computational & Quantitative Linguistics Lab
 
 news:
   noheader: true

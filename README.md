@@ -1,5 +1,5 @@
 # MCQLL website
-The website for the Montreal Computational & Quantitative Linguistics Lab,
+The website for the Montréal Computational & Quantitative Linguistics Lab,
 MCQLL, lives here. See [mcqll.org](https://mcqll.org).
 
 This jekyll-based site was designed off of the
@@ -80,7 +80,7 @@ inline: false
 
 At this week's lab meeting, **Presenter Name** will be presenting on *topic*.
 
-- **{{ page.date | date: '%A, %B %-d' }}**, at **13:30** (Montreal time, UTC-4).
+- **{{ page.date | date: '%A, %B %-d' }}**, at **13:30** (Montréal time, UTC-4).
 
 #### Abstract
 <blockquote>

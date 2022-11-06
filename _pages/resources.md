@@ -11,7 +11,7 @@ news: true
 Here are some of the pieces of software written by MCQLL members:
 
 - [PolyglotDB](http://polyglotdb.readthedocs.io/en/latest/)
-- [The Montreal Forced Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/)
+- [The Montréal Forced Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/)
 - [SpeechCorpusTools](http://speech-corpus-tools.readthedocs.io/en/latest/)
 - [AutoVOT](https://github.com/mlml/autovot)
 - [Generalized Chart Parser](https://arxiv.org/abs/1710.11301)
