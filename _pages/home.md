@@ -2,14 +2,14 @@
 layout: home
 permalink: /
 title:
-description: Montreal Computational & Quantitative Linguistics Lab
+description: Montréal Computational & Quantitative Linguistics Lab
 
 news: true
 calendar: true
 social: false
 ---
 
-The *Montreal Computational & Quantitative Linguistics Lab* is located in the [Department of Linguistics at McGill University](https://mcgill.ca/linguistics) and is co-directed by Timothy O'Donnell, Siva Reddy, and Morgan Sonderegger. We use a variety of computational tools and methods to study fundamental questions about language acquisition, processing, use in society, and change over time.
+The *Montréal Computational & Quantitative Linguistics Lab* is located in the [Department of Linguistics at McGill University](https://mcgill.ca/linguistics) and is co-directed by Timothy O'Donnell, Siva Reddy, and Morgan Sonderegger. We use a variety of computational tools and methods to study fundamental questions about language acquisition, processing, use in society, and change over time.
 
 One focus of research in the lab is on structured probabilistic models of phonology, morphology, and syntax which make critical use of linguistic theories. To build such models we draw on the framework of probabilistic programming languages and other areas of machine learning and artificial intelligence.
 
