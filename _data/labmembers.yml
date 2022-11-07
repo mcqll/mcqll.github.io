@@ -52,6 +52,11 @@ Jiang:
     position: alum
     url: people/jiang.binger
 
+Kamath:
+  - firstname: ["Gaurav", "G."]
+    position: grad
+    url: people/kamath.gaurav
+
 LeBrun:
   - firstname: ["Benjamin", "Ben", "B."]
     position: grad
