@@ -32,6 +32,16 @@ Bradford:
     position: grad
     url: people/bradford.laurestine
 
+Chen:
+  - firstname: [Xuanda, "X."]
+    position: grad
+    url: people/chen.xuanda
+
+Doucette:
+  - firstname: [Amanda, "A."]
+    position: grad
+    url: people/doucette.amanda
+
 Goodwin:
   - firstname: ["Emily", "E."]
     position: grad
