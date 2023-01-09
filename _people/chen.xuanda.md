@@ -1,6 +1,6 @@
 ---
 layout: person
-name: Amanda Doucette
+name: Xuanda Chen
 position: grad
 description:
 img:
@@ -8,7 +8,7 @@ img:
 profile:
   img: # optional, another image, if different from the one on the people page
   cv:
-  website: http://amandadoucette.com/#/
+  website: https://xdchen2.github.io/
   office: # address
 
 ---
