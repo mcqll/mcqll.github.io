@@ -7,7 +7,7 @@ img: morgansonderegger.cropped.jpg # to fit better
 
 profile:
   img: morgansonderegger.jpg
-  cv: /assets/pdfs/cv_morgan.pdf
+  cv: https://people.linguistics.mcgill.ca/~morgan/cv_12_2022.pdf
   website: http://people.linguistics.mcgill.ca/~morgan/
   office: # address
 ---
