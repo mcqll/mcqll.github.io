@@ -5,7 +5,7 @@ title:
 description: Montréal Computational & Quantitative Linguistics Lab
 
 news: true
-calendar: true
+calendar: false
 social: false
 ---
 

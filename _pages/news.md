@@ -6,6 +6,6 @@ description: Montréal Computational & Quantitative Linguistics Lab
 
 news:
   noheader: true
-calendar: true
+calendar: false
 social: false
 ---

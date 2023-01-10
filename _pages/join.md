@@ -2,7 +2,7 @@
 layout: page
 title: Join
 permalink: /join
-description: join the lab
+description: join MCQLL
 
 news: true
 ---
