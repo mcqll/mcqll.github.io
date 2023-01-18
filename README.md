@@ -149,7 +149,7 @@ Notes for specific `position`s:
 
 - `faculty`: `description` should be the level, that is "Principal Investigator"
   or "Associate"
-- `postdoc`: (not currently set up to display on People page)
+- `postdoc`: 
 - `grad`:
 - `undergrad`:
 - `alum`: will appear in a simple list. link to website, if there is a website
