@@ -8,7 +8,7 @@ img: nathandrezner.jpg
 profile:
   img: nathandrezner.jpg
   cv: 
-  website: https://github.com/ndrezn/
+  website: https://nathandrezner.com/
   office: # address
 
 ---

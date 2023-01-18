@@ -1,16 +1,15 @@
 ---
 layout: person
 name: Eva Portelance
-position: assoc
-description: Stanford
+position: postdoc
 img: evaportelance-cropped.jpg
 
 profile:
   img: evaportelance.jpg 
   cv:
-  website: https://web.stanford.edu/~portelan/
+  website: https://evaportelance.github.io/
   office: # address
 
 ---
 
-I completed a B.A. Honours in Linguistics and Computer Science at McGill University in 2017 and am now a Ph.D. candidate in Linguistics at Stanford University.  I am interested in linguistic structure and computational modeling of language learning both in humans and machines.
+I'm a postdoctoral fellow working with professors Timothy J. O'Donnell and Siva Reddy. I completed my Ph.D. in computational/cognitive linguistics at Stanford University, where I was co-advised by Mike C. Frank and Dan Jurafsky. My research intersects computational modeling and language acquisition, though I have also dabbled in theoretical syntax and digital humanities.

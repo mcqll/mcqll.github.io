@@ -20,6 +20,13 @@ Cheung:
     position: faculty
     url: people/cheung.jackie.chi.kit
 
+# Postdocs
+
+Portelance:
+  - firstname: ["Eva", "E."]
+    position: postdoc
+    url: people/portelance.eva
+
 # Grads
 
 Baylor:
@@ -56,6 +63,11 @@ Ji:
   - firstname: ["Jing", "J."]
     position: grad
     url: people/ji.jing
+
+Jian:
+  - firstname: ["Jasper", "J."]
+    position: undergrad
+    url: people/jian.jasper
 
 Jiang:
   - firstname: ["Bing'er", "Bing’er", "B."]
@@ -118,8 +130,3 @@ Harasim:
   - firstname: ["Daniel", "D."]
     position: assoc
     url: people/harasim.daniel
-
-Portelance:
-  - firstname: ["Eva", "E."]
-    position: assoc
-    url: people/portelance.eva

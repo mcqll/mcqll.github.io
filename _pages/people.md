@@ -2,7 +2,7 @@
 layout: grid
 title: People
 permalink: /people
-description: faculty, post-docs, and students in the lab, and collaborators
+description: faculty, postdocs, and students in the lab, and collaborators
 ---
 
 
@@ -80,6 +80,50 @@ description: faculty, post-docs, and students in the lab, and collaborators
 {% if mod3 == 2 %}
 </div>
 {% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+{% assign mod3 = number_printed | modulo: 3 %}
+{% if mod3 != 0 %}
+</div>
+{% endif %}
+
+
+### Postdocs
+{% assign number_printed = 0 %}
+{% for person in site.people %}
+{% if person.position == "postdoc" %}
+
+{% assign mod3 = number_printed | modulo: 3 %}
+
+{% if mod3 == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="person">
+    <div class="thumbnail">
+        <a href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">
+        {% if person.img %}
+        <img class="thumbnail" src="{{ person.img | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}"/>
+        {% else %}
+        <div class="thumbnail blankbox"></div>
+        {% endif %}    
+        <span> <!-- mouse over material --> </span>
+        </a>
+    </div>
+    <a href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">
+        <h4>{{ person.name }}</h4>
+    </a>
+    {% if person.description %}
+    <i><p>{{ person.description }}</p></i>
+    {% endif %}
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if mod3 == 2 %}
+</div>
 {% endif %}
 {% endif %}
 {% endfor %}
@@ -192,7 +236,7 @@ description: faculty, post-docs, and students in the lab, and collaborators
 
 ## External Collaborators
 
-### Student Collaborators
+<!-- ### Associate Collaborators -->
 
 {% assign number_printed = 0 %}
 {% for person in site.people %}

@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Maya Watt
-position: undergrad
+position: alum
 description:
 img: mayawatt.jpg
 
