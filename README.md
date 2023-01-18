@@ -15,31 +15,40 @@ Below is information you should find useful if you are editing the MCQLL site.
 Download this repo to your local machine. Have [Ruby](Ruby),
 [jekyll](https://jekyllrb.com/) and [bundler](https://bundler.io/) installed.
 You might need to install ruby (for instance, on macOS, using `brew install
-ruby`,  or using RVM, see below). After installing be sure to update your PATH
-by running `echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >>
+ruby`, or using RVM, or `chruby` see below). After installing be sure to update
+your PATH by running `echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >>
 ~/.bash_profile`, and reload with `source ~/.bash_profile`.
 
 Then,
-```bash
+<!-- ```bash
 gem install bundler jekyll github-pages jekyll-email-protect jekyll-scholar unicode_utils
 bundle install
+``` -->
+```bash
+bundler install
 ```
-if it is correctly configured, `bundle exec jekyll serve` should work to serve the site locally.
+This should install the necessry 'gems' (specified in `./Gemfile`), and if
+things are correctly configured, you should be able to run 
+
+```bash
+bundle exec jekyll serve
+```
+
+to serve the site locally.
 
 **NOTES** 
 
-- Jekyll v3.8.3 is not compatible with latest github-pages gem. You'll be able
+<!-- - Jekyll v3.8.3 is not compatible with latest github-pages gem. You'll be able
   to work with both gems by downgrading Jekyll in your Gemfile to 3.7.3. To
   downgrade jekyll: In the Gemfile, change `gem 'jekyll'` to `gem 'jekyll',
   '3.7.3'`. Then, `bundle update`. This should already be so in the current
-  version of the Gemfile in this repository.
+  version of the Gemfile in this repository. -->
 
-- [There may be issues with jekyll-scholar and
-  github-pages](https://github.com/alshedivat/al-folio/issues/161) if you try to
-  use Ruby version 3.  Use RVM to install and use an earlier version of ruby,
-  like `rvm install 2.7.2` then `rvm use 2.7.2`.  Check with `ruby -v`.
-  **If you are trying to build and getting issues with your ruby version, this may solve it.**
-
+- [There may be issues with
+  jekyll-scholar](https://github.com/alshedivat/al-folio/issues/161).  Use RVM
+  to install and use an earlier version of ruby, like `rvm install 2.7.2` then
+  `rvm use 2.7.2`.  Check with `ruby -v`. **If you are trying to build and
+  getting issues with your ruby version, this may solve it.**
 
 ## Editing workflow ! IMPORTANT !
 
@@ -100,7 +109,7 @@ if this is changed, posts about future lab meetings will not show up.
 ## Adding/editing the list of members
 
 > __Note:__ In addition to what is described below, there is an additional file `_data/labmembers.yml`, which has a list of current and previous lab members. 
-> Currently, this file is used only to make links to lab member pages from the [bibliography](mcqll.org/publications).  This means you have to add labmembers names and info in both places which is not ideal. __TODO:__ Consolidate. 
+> Currently, this file is used only to make links to lab member pages from the [bibliography](mcqll.org/publications).  This means you have to add labmembers names and info in both places which is not ideal. __TODO:__ Consolidate (all labmember metadata could be in labmembers.yml). 
 
 There is a markdown file for each lab member in the `/_people` directory, with
 name format `lastname.firstname.md` (this is just to be tidy and for alphabetic
