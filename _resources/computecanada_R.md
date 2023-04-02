@@ -1,23 +1,25 @@
 ---
 layout: resourcepost
 title: Compute Canada tutorial
-description: Steps to get set up to fit R models on Compute Canada
+description: Steps to get set up to fit R models on Digital Research Alliance of Canada
 author: Jacob and Connie
 date: 26 November 2021
 ---
 
-This is a short tutorial to test using Compute Canada for R computing with `brms` and `mgcv`. See also [this blog post](https://medium.com/the-nature-of-food/how-to-run-your-r-script-with-compute-canada-c325c0ab2973). For complete information see the extensive [Compute Canada docs](https://docs.computecanada.ca/wiki/Compute_Canada_Documentation).
+_Note: As of April 1 Jan 2022, **Compute Canada** became **Digital Research Alliance of Canada**._
+
+This is a short tutorial to test using Compute Canada (aka Digital Research Alliance of Canada) for R computing with `brms` and `mgcv`. See also [this blog post](https://medium.com/the-nature-of-food/how-to-run-your-r-script-with-compute-canada-c325c0ab2973). For complete information see the extensive [technical documentation](https://docs.alliancecan.ca/wiki/Technical_documentation) on the official wiki.
 
 ## 1. Log in and install modules
 
-1. Make sure you have an active account with [Compute Canada](https://ccdb.computecanada.ca/).
+1. Make sure you have an active account with [CCDB](https://ccdb.computecanada.ca/).
 
 2. SSH in to a Compute Canada login node (with `-Y` for trusted X11 forwarding):
   ```bash
   ssh -Y ${username}@beluga.computecanada.ca
   ```
-  where `${username}` is your Compute Canada username (not your CCI).  You could also replace `beluga` with another Compute Canada cluster name, if you're not in Quebec (see [here](https://www.computecanada.ca/research-portal/accessing-resources/available-resources/)).
-  You will be prompted to enter a password. Note: if you have entered your public ssh key on Compute Canada's website, you won't need a password (you can generate a key, or if you have a key on your computer already it's probably at `~/.ssh/id_rs.pub`; you can paste the contents of that file on the Compute Canada website at _My Account > Manage SSH Keys_, and press 'Add Key' and then you won't need to use a password to login).
+  where `${username}` is your Compute Canada username (not your CCI).  You could also replace `beluga` with another Compute Canada cluster name, if you're not in Quebec (see [here](https://alliancecan.ca/en/services/advanced-research-computing/accessing-resources/resource-allocation-competition/available-resources)).
+  You will be prompted to enter a password. Note: if you have entered your public ssh key on the Alliance's website, you won't need a password (you can generate a key, or if you have a key on your computer already it's probably at `~/.ssh/id_rs.pub`; you can paste the contents of that file on the Compute Canada website at _My Account > Manage SSH Keys_, and press 'Add Key' and then you won't need to use a password to login).
 
 3. Once you're logged into, you will see a welcome message and a bash prompt that looks something like `[username@beluga3 ~]$`.  You now need to load the necessary modules.  Use the following command.  Note: the bioconductor module is necessary for `brms` to work.
   ```bash
@@ -42,11 +44,11 @@ install.packages(c("tidyverse", "mgcv", "brms"),
 
 Now it should be all set.  
 
-Note: *Steps 1-4 you'll use anytime you use Compute Canada for an R project. You should only have to run step 5 once ever (the packages will remain installed for you for all future sessions on Beluga).  If you need other packages in the future, just open R and `install.packages` as in step 5 to install them too.*
+Note: *Steps 1-4 you'll use anytime you use the cluster for an R project. You should only have to run step 5 once ever (the packages will remain installed for you for all future sessions on Béluga).  If you need other packages in the future, just open R and `install.packages` as in step 5 to install them too.*
 
 ## 2. Test fitting models in R
 
-When you ssh into Compute Canada, you start out in a "login node" (you'll see the name of the particular node your on at the prompt. It will probably have a name like `beluga3`). 
+When you ssh into the cluster, you start out in a "login node" (you'll see the name of the particular node your on at the prompt. It will probably have a name like `beluga3`). 
 
 **Important**: _A login node is just your entry point to the cluster, it is not where you run your code. Fitting models on a login node will be slow (probably not faster your laptop), and more importantly, it can make the login node unusable to other users! Don't be rude!_  To run things, you must do one of the following:
 
@@ -56,7 +58,7 @@ When you ssh into Compute Canada, you start out in a "login node" (you'll see th
 ### 2.1 Running things interactively
 (skip this section if you just want to submit jobs to be run)
 
-1. Start in a Compute Canada login node, as above. Then, request an interactive session using the `salloc` command:
+1. Start in a cluster login node, as above. Then, request an interactive session using the `salloc` command:
 
    ```bash
    salloc --x11 --time=1:0:0 --ntasks=4 --mem-per-cpu=4GB --account=${ACCOUNT} 
@@ -100,14 +102,15 @@ Let's test fitting a Bayesian regression model with `brm()`
 ```R
 library(brms)
 data("kidney")
-fit1 <- brm(formula = time | cens(censored) ~ age * sex + disease
-            + (1 + age|patient),
-            data = kidney, family = lognormal(),
-            prior = c(set_prior("normal(0,5)", class = "b"),
-            set_prior("cauchy(0,2)", class = "sd"),
-            set_prior("lkj(2)", class = "cor")),
-            warmup = 1000, iter = 2000, chains = 4, cores = 4,
-            control = list(adapt_delta = 0.95))
+fit1 <- brm(
+  formula = time | cens(censored) ~ age * sex + disease
+  + (1 + age|patient),
+  data = kidney, family = lognormal(),
+  prior = c(set_prior("normal(0,5)", class = "b"),
+  set_prior("cauchy(0,2)", class = "sd"),
+  set_prior("lkj(2)", class = "cor")),
+  warmup = 1000, iter = 2000, chains = 4, cores = 4,
+  control = list(adapt_delta = 0.95))
 summary(fit1)
 ```
 
@@ -136,14 +139,15 @@ dev.off()
 ## testing brms
 library(brms)
 data("kidney")
-fit1 <- brm(formula = time | cens(censored) ~ age * sex + disease
-            + (1 + age|patient),
-            data = kidney, family = lognormal(),
-            prior = c(set_prior("normal(0,5)", class = "b"),
-            set_prior("cauchy(0,2)", class = "sd"),
-            set_prior("lkj(2)", class = "cor")),
-            warmup = 1000, iter = 2000, chains = 4, cores = 4,
-            control = list(adapt_delta = 0.95))
+fit1 <- brm(
+  formula = time | cens(censored) ~ age * sex + disease
+  + (1 + age|patient),
+  data = kidney, family = lognormal(),
+  prior = c(set_prior("normal(0,5)", class = "b"),
+  set_prior("cauchy(0,2)", class = "sd"),
+  set_prior("lkj(2)", class = "cor")),
+  warmup = 1000, iter = 2000, chains = 4, cores = 4,
+  control = list(adapt_delta = 0.95))
 summary(fit1)
 png(file="Rtest-plots/fit1.png", width=600, height=500)
 plot(fit1, select=1)
@@ -170,7 +174,7 @@ Rscript Rtest.R
 EOF
 ```
 
-This requests 15 minutes of time on a compute node with 8 CPUs, and 4GB of RAM per each. Replace `${ACCOUNT}` with the account name you want to use.  Replace `${EMAIL}` with your email address to be alerted when the job starts/finishes/fails. The `--output` flag specifies the format for the output file you'll get when your job terminates.  In this case, we're setting it to be `Rtest-jobnumber.out`.
+This requests 15 minutes of time on a compute node with 8 CPUs, and 4GB of RAM per each. `${ACCOUNT}` should be the account name you want to use. Set `${EMAIL}` to your email address to be alerted when the job starts/finishes/fails (optional). The `--output` flag specifies the format for the output file you'll get when your job terminates.  In this case, we're setting it to be `Rtest-jobnumber.out`.
 
 Make a directory for the test plots to be put in:
 
@@ -198,9 +202,9 @@ Beyond just running a simple test like above, you'll likely need to transfer dat
 
 To  transfer files between your local machine and your home directory on Béluga
 
-- you can use [`scp`](https://linux.die.net/man/1/scp) (OS X/Linux) or Windows equivalents to copy files via SSH.  For example, to copy a script from your laptop to your home directory on Béluga, run something like the following (on your local terminal):
+- you can use [`scp`](https://linux.die.net/man/1/scp) or [`rsync`](https://linux.die.net/man/1/rsync) to copy files via SSH (or on Windows, equivalent tools). For example, to copy a script from your laptop to your home directory on Béluga, run something like the following (on your local terminal):
   ```bash
   scp /path/to/myscript.R ${username}@beluga.computecanada.ca:/home/${username}/
   ```
   You can use it similarly to copy output files back to your local machine.
-- for large/multiple files, Compute Canada [recommends the _Globus_ system](https://docs.computecanada.ca/wiki/Transferring_data).
+- for large/multiple files, the Alliance [recommends the _Globus_ system](https://docs.alliancecan.ca/wiki/Transferring_data).
