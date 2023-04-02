@@ -1,7 +1,7 @@
 ---
 layout: resourcepost
 title: Compute Canada tutorial
-description: Steps to get set up to fit R models on Digital Research Alliance of Canada
+description: Steps to get set up to fit R models on a cluster
 author: Jacob and Connie
 date: 26 November 2021
 ---
