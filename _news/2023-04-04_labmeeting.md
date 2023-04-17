@@ -17,7 +17,7 @@ be presenting **Not just surprisal: Towards a theory of incremental processing c
 > in room 117 of the McGill Linguistics Department, [1085
 > Dr-Penfield](https://maps.mcgill.ca/?cmp=1&txt=EN&id=Penfield1085). If you'd
 > like to attend virtually, the Zoom link is
-> [here](https://mcgill.zoom.us/j/84089215248?pwd=UkpMK1FEV2dTaVpGSDMzLzJtNWFhUT09).
+> [here](https://mcgill.zoom.us/j/88414877066?pwd=bzlZTEdwOERTZC8rSUxuOE9xd3JGUT09).
 
 All are welcome to attend.
 
