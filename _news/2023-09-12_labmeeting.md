@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lab meeting - Jeanne Brown
-date: 2023-09-05
+date: 2023-09-12
 published: true
 inline: false
 ---
