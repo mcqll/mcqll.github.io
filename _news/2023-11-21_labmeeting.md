@@ -6,7 +6,7 @@ published: true
 inline: false
 ---
 
-At this week's MCQLL meeting, [**Jacob Louis hoover**](/people/hoover.jacob.louis) will
+At this week's MCQLL meeting, [**Jacob Louis Hoover**](/people/hoover.jacob.louis) will
 be presenting **When unpredictable doesn't mean difficult**.
 
 > __When:__ 
