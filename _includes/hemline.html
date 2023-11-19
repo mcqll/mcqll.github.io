@@ -4,6 +4,9 @@
 <!-- Load Common JS -->
 <script src="{{ '/assets/js/common.js' | prepend: site.baseurl | prepend: site.url }}"></script>
 
+<!-- HACK, add latecx support with mathjax not sure why this isn't working, but this should do it -->
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 {% if site.enable_katex %}
 <!-- Load KaTeX -->
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/{{ site.katex_version }}/katex.min.css">
