@@ -6,7 +6,7 @@ published: true
 inline: false
 ---
 
-At this week's MCQLL meeting, [**Andrei Munteanu**](/people/portelance.eva) will
+At this week's MCQLL meeting, [**Andrei Munteanu**](https://anmunlin.com/) will
 be presenting **Evaluating comparative reconstructions probabilistically**.
 
 > __When:__ 
