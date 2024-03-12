@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Jing Ji
-position: grad
+position: # grad
 description:
 img: jingji-cropped.jpg
 

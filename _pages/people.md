@@ -219,9 +219,9 @@ description: faculty, postdocs, and students in the lab, and collaborators
 </div>
 {% endif %}
 
-### Former Students
+### Past Students
 
-<ul>
+<ul class="personlist">
     {% for person in site.people %}
     {%- if person.position == "alum" -%}
     {%- if person.profile.website -%}
@@ -234,7 +234,7 @@ description: faculty, postdocs, and students in the lab, and collaborators
 </ul>
 
 
-## External Collaborators
+## External
 
 <!-- ### Associate Collaborators -->
 
@@ -283,27 +283,30 @@ description: faculty, postdocs, and students in the lab, and collaborators
 
 ### Other Collaborators
 
-- [Adam Albright](http://web.mit.edu/albright/www/)
-- [Leon Bergen](http://profiles.ucsd.edu/leon.bergen)
-- [Matthew Carlson](http://cls.psu.edu/people/mtc173)
-- [Meghan Clayards](https://www.mcgill.ca/linguistics/people/faculty/clayards)
-- [Richard Futrell](http://socsci.uci.edu/~rfutrell/)
-- [Joshua Hartshorne](http://l3atbc.org/JKHartshorne.About.html)
-- [Yoonjung Kang](https://www.yoonjungkang.com)
-- [Roni Katzir](https://english.tau.ac.il/profile/rkatzir)
-- [Joseph Keshet](http://u.cs.biu.ac.il/~jkeshet/)
-- [James Kirby](http://www.lel.ed.ac.uk/~jkirby/)
-- [Roger Levy](http://www.mit.edu/~rplevy/)
-- [Tal Linzen](http://tallinzen.net)
-- [Martina Martinovi&#263;](http://inamartinovic.com)
-- [Samuel Mehr](https://mehr.cz/)
-- [Emily Morgan](https://sites.tufts.edu/emilymorgan/)
-- [Tamara Rathcke](https://www.kent.ac.uk/secl/ell/staff/rathcke.html)
-- [Jason Riggle](http://hum.uchicago.edu/~jriggle/)
-- [Derek Ruths](http://www.derekruths.com)
-- [Kenny Smith](https://www.ed.ac.uk/profile/kenny-smith)
-- [Alessandro Sordoni](https://www.microsoft.com/en-us/research/people/alsordon/)
-- [Jane Stuart-Smith](https://www.gla.ac.uk/schools/critical/staff/janestuart-smith/)
-- [Michael Wagner](http://www.mcgill.ca/linguistics/people/faculty/wagner)
-- Tae-Jin Yoon
-- [Alan Yu](https://lucian.uchicago.edu/blogs/aclyu/)
+<ul class="personlist">
+<li><a href="http://web.mit.edu/albright/www/">Adam Albright</a></li>
+<li><a href="http://profiles.ucsd.edu/leon.bergen">Leon Bergen</a></li>
+<li><a href="http://cls.psu.edu/people/mtc173">Matthew Carlson</a></li>
+<li><a href="https://www.mcgill.ca/linguistics/people/faculty/clayards">Meghan Clayards</a></li>
+<li><a href="http://socsci.uci.edu/~rfutrell/">Richard Futrell</a></li>
+<li><a href="http://l3atbc.org/JKHartshorne.About.html">Joshua Hartshorne</a></li>
+<li><a href="https://www.yoonjungkang.com">Yoonjung Kang</a></li>
+<li><a href="https://english.tau.ac.il/profile/rkatzir">Roni Katzir</a></li>
+<li><a href="http://u.cs.biu.ac.il/~jkeshet/">Joseph Keshet</a></li>
+<li><a href="http://www.lel.ed.ac.uk/~jkirby/">James Kirby</a></li>
+<li><a href="http://www.mit.edu/~rplevy/">Roger Levy</a></li>
+<li><a href="http://tallinzen.net">Tal Linzen</a></li>
+<li><a href="http://inamartinovic.com">Martina Martinovi&#263;</a></li>
+<li><a href="https://mehr.cz/">Samuel Mehr</a></li>
+<li><a href="https://sites.tufts.edu/emilymorgan/">Emily Morgan</a></li>
+<li><a href="https://www.kent.ac.uk/secl/ell/staff/rathcke.html">Tamara Rathcke</a></li>
+<li><a href="http://hum.uchicago.edu/~jriggle/">Jason Riggle</a></li>
+<li><a href="http://www.derekruths.com">Derek Ruths</a></li>
+<li><a href="https://www.ed.ac.uk/profile/kenny-smith">Kenny Smith</a></li>
+<li><a href="https://www.microsoft.com/en-us/research/people/alsordon/">Alessandro Sordoni</a></li>
+<li><a href="https://www.gla.ac.uk/schools/critical/staff/janestuart-smith/">Jane Stuart-Smith</a></li>
+<li><a href="http://www.mcgill.ca/linguistics/people/faculty/wagner">Michael Wagner</a></li>
+<li>Tae-Jin Yoon</li>
+<li><a href="https://lucian.uchicago.edu/blogs/aclyu/">Alan Yu</a></li>
+</ul>
+
