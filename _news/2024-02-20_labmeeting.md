@@ -6,7 +6,7 @@ published: true
 inline: false
 ---
 
-At this week's MCQLL meeting, [**Irene Smith**](people/smith.irene) will
+At this week's MCQLL meeting, [**Irene Smith**](/people/smith.irene) will
 be presenting **Quantifying vowel category distinctness using Bayesian modeling**.
 
 > __When:__ 
