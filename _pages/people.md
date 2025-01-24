@@ -219,7 +219,7 @@ description: faculty, postdocs, and students in the lab, and collaborators
 </div>
 {% endif %}
 
-### Past Students
+### Former members
 
 <ul class="personlist">
     {% for person in site.people %}

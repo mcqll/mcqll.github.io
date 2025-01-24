@@ -31,7 +31,7 @@ Portelance:
 
 Baylor:
   - firstname: [Emi, "E."]
-    position: grad
+    position: alum
     url: people/baylor.emi
 
 Bradford:
@@ -51,22 +51,22 @@ Doucette:
 
 Goodwin:
   - firstname: ["Emily", "E."]
-    position: grad
+    position: alum
     url: people/goodwin.emily
 
 Hoover:
   - firstname: ["Jacob", "Jacob Louis", "Jacob L.", "J.", "J. L."]
-    position: grad
+    position: alum
     url: people/hoover.jacob.louis
 
 Ji:
   - firstname: ["Jing", "J."]
-    position: grad
+    position: alum
     url: people/ji.jing
 
 Jian:
   - firstname: ["Jasper", "J."]
-    position: undergrad
+    position: alum
     url: people/jian.jasper
 
 Jiang:
@@ -81,7 +81,7 @@ Kamath:
 
 LeBrun:
   - firstname: ["Benjamin", "Ben", "B."]
-    position: grad
+    position: alum
     url: people/lebrun.benjamin
 
 Palucci:
@@ -91,7 +91,7 @@ Palucci:
 
 Sinha:
   - firstname: ["Koustuv", "K."]
-    position: grad
+    position: alum
     url: people/sinha.koustuv
 
 Smith:
@@ -101,7 +101,7 @@ Smith:
 
 Socolof:
   - firstname: ["Michaela", "M."]
-    position: grad
+    position: alum
     url: people/socolof.michaela
 
 Tanner:
