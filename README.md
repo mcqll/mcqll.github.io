@@ -152,8 +152,7 @@ Notes for specific `position`s:
 - `postdoc`: 
 - `grad`:
 - `undergrad`:
-- `alum`: will appear in a simple list. link to website, if there is a website
-  listed under `profile:website`.
+- `alum-undergrad`, `alum-grad`, `alum-postdoc`: `description` should be the current position/institution (such as PhD at X University)
 - `assoc`: this is for associated collaborators for whom we want a profile on
   the site. The `description` should be the external university (such as "Mila")
   for students being directly advised by one of the lab members.

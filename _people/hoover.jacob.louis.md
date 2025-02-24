@@ -2,9 +2,8 @@
 layout: person
 name: Jacob Hoover Vigly
 position: alum-grad
-description:
+description: Postdoc at MIT
 img: jaclouhoo.jpg
-current: Postdoc at MIT
 
 profile:
   img: jaclouhoo2.jpg # optional, another image, if different from the one on the people page
