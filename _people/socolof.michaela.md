@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Michaela Socolof
-position: alum
+position: alum-grad
 description:
 img: michaelasocolof.jpg
 

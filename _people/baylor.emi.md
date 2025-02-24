@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Emi Baylor
-position: alum
+position: alum-grad
 description:
 img: emibaylor.jpg
 

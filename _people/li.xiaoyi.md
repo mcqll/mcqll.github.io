@@ -1,14 +1,14 @@
 ---
 layout: person
-name: Emily Mulhall
-position: alum-undergrad
+name: Xiaoyi Li
+position: undergrad
 description:
-img: emilym.jpg
+img: 
 
 profile:
   img: # optional, another image, if different from the one on the people page
-  cv:
-  website:
   office: # address
+  cv:
+  website: 
 
 ---

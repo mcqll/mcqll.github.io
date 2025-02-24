@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Koustuv Sinha
-position: alum
+position: alum-grad
 description:
 img: koustuvsinha.jpg
 

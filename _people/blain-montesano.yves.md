@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Yves Blain-Montesano
-position: alum
+position: alum-undergrad
 description:
 img: yvesbm.jpg
 

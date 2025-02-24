@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Nathan Drezner
-position: alum
+position: alum-undergrad
 description:
 img: nathandrezner.jpg
 

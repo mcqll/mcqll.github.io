@@ -16,6 +16,20 @@
     content: ".";
 }
 
+.alumlist {
+    display: block;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.alumlist li {
+    display: list-item;
+}
+
+.alumlist li:after {
+    content: unset; 
+}
+
 .person {
     box-sizing: border-box;
     float: left;

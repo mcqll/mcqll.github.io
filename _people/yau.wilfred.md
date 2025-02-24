@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Wilfred Yau
-position: alum
+position: alum-grad
 description:
 img: wilfredyau.jpg
 

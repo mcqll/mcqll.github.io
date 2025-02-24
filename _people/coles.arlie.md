@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Arlie Coles
-position: alum
+position: alum-undergrad
 description:
 img: arliecoles.png
 

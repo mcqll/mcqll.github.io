@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Gregory Theos
-position: alum
+position: alum-undergrad
 description:
 img: gregtheos.jpg
 

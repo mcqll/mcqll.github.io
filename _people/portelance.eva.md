@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Eva Portelance
-position: postdoc
+position: alum-postdoc
 img: evaportelance-cropped.jpg
 
 profile:

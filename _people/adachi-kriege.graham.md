@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Graham Adachi-Kriege
-position: alum
+position: alum-undergrad
 description:
 img: grahamak.jpg
 

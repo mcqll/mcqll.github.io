@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Jiayi (Gemma) Huang
-position: alum
+position: alum-ungergrad
 description:
 img: gemmahuang.jpg
 

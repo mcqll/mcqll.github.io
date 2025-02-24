@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Amy Bruno
-position: alum
+position: alum-grad
 description:
 img: amybruno.jpg
 
