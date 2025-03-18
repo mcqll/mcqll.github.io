@@ -219,20 +219,64 @@ description: faculty, postdocs, and students in the lab, and collaborators
 </div>
 {% endif %}
 
-### Former members
+### Former Members
 
-<ul class="personlist">
+#### **Postdocs**
+<ul class="alumlist">
     {% for person in site.people %}
-    {%- if person.position == "alum" -%}
-    {%- if person.profile.website -%}
-    <li><a href="{{ person.profile.website }}">{{ person.name }}</a></li>
-    {%- else -%}
-    <li>{{ person.name }}</li>
-    {%- endif -%}
-    {%- endif -%}
+        {%- if person.position == "alum-postdoc" -%}
+            <li>
+                {%- if person.profile.website -%}
+                    <a href="{{ person.profile.website }}">{{ person.name }}</a>
+                {%- else -%}
+                    {{ person.name }}
+                {%- endif -%}
+
+                {%- if person.current -%}
+                    — {{ person.current }}
+                {%- endif -%}
+            </li>
+        {%- endif -%}
     {% endfor %}
 </ul>
 
+#### **Graduate Students**
+<ul class="alumlist">
+    {% for person in site.people %}
+        {%- if person.position == "alum-grad" -%}
+            <li>
+                {%- if person.profile.website -%}
+                    <a href="{{ person.profile.website }}">{{ person.name }}</a>
+                {%- else -%}
+                    {{ person.name }}
+                {%- endif -%}
+
+                {%- if person.current -%}
+                    — {{ person.current }}
+                {%- endif -%}
+            </li>
+        {%- endif -%}
+    {% endfor %}
+</ul>
+
+#### **Undergraduate Students**
+<ul class="alumlist">
+    {% for person in site.people %}
+        {%- if person.position == "alum-undergrad" -%}
+            <li>
+                {%- if person.profile.website -%}
+                    <a href="{{ person.profile.website }}">{{ person.name }}</a>
+                {%- else -%}
+                    {{ person.name }}
+                {%- endif -%}
+
+                {%- if person.current -%}
+                    — {{ person.current }}
+                {%- endif -%}
+            </li>
+        {%- endif -%}
+    {% endfor %}
+</ul>
 
 ## External
 

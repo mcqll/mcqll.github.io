@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Benji Taubenblatt
-position: alum
+position: alum-undergrad
 description:
 img: benjitaubenblatt.jpg
 

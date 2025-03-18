@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Emily Goodwin
-position: alum
+position: alum-undergrad
 description:
 img: emilygoodwin.jpg
 

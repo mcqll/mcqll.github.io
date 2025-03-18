@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Michael McAuliffe
-position: alum
+position: alum-postdoc
 description:
 img: michaelmcauliffe.png
 

@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Vanna Willerton
-position: alum
+position: alum-grad
 description:
 img: vannawillerton.png
 

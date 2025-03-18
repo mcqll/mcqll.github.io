@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Benjamin LeBrun
-position: alum
+position: alum-grad
 description:
 img: benlebrun.jpg
 

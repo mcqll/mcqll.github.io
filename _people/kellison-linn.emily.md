@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Emily Kellison-Linn
-position: alum
+position: alum-grad
 description:
 img: emilykl.jpg
 

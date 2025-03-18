@@ -1,0 +1,20 @@
+.meetings {
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    .date {
+        width: 30%;
+    }
+    .announcement {
+        width: 81%;
+    }
+    tr {
+        text-align: left;
+    }
+    td {
+        vertical-align: top;
+        border-top: 1px solid $grey-color-light !important;
+    }
+
+}

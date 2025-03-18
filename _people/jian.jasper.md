@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Jasper Jian
-position: alum
+position: alum-undergrad
 description:
 img: jasperjian.jpg
 

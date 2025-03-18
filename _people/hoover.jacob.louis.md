@@ -1,8 +1,8 @@
 ---
 layout: person
 name: Jacob Hoover Vigly
-position: alum
-description:
+position: alum-grad
+description: Postdoc at MIT
 img: jaclouhoo.jpg
 
 profile:

@@ -1,8 +1,8 @@
 ---
 layout: person
 name: Elias Stengel-Eskin
-position: alum
-description:
+position: alum-undergrad
+description: PhD at Johns Hopkins -> Postdoc at U. North Carolina
 img: elias.s-e.jpg
 
 profile:

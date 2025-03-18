@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Seara Chen
-position: alum
+position: alum-undergrad
 description:
 img: searachen.jpg
 
